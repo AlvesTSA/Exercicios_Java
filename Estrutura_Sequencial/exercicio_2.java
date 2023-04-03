@@ -1,3 +1,5 @@
+//Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+
 import java.util.Scanner;
 
 public class exercicio_2 {
@@ -8,7 +10,7 @@ public class exercicio_2 {
         System.out.print("Digite um número: ");
 
         int numero = scanner.nextInt();
-        
+
         System.out.println("O número informado foi " + numero);
     }
 }
