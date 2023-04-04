@@ -12,5 +12,7 @@ public class exercicio_2 {
         int numero = scanner.nextInt();
 
         System.out.println("O número informado foi " + numero);
+
+        scanner.close();
     }
 }

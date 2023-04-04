@@ -27,6 +27,8 @@ public class exercicio_4 {
         float media = (nota1 + nota2 + nota3 + nota4) /4;  
         
         System.out.print("Sua nota final é: " + media);
+
+        scanner.close();
      }    
     
 }

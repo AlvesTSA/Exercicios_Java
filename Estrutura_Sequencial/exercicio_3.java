@@ -18,6 +18,8 @@ public class exercicio_3 {
 
         System.out.print("A soma e igual a: " + soma);
 
+        scanner.close();
+
     }
     
 }
