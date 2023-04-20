@@ -1,4 +1,8 @@
 # Exercicios_Java
+<div align="center">
+<img src="https://user-images.githubusercontent.com/116441568/233226397-154e1544-ef2d-4a1b-90c7-51e4b14b5518.jpeg" width="100px" />
+</div>
+
 ## Conhecendo e treinando Java
 
 ### Estrutura sequencial
