@@ -98,8 +98,8 @@ C = 5 * ((F-32) / 9).
 
 <p align="left">
  <strong> 13. </strong> Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
-Para homens: (72.7*h) - 58
-Para mulheres: (62.1*h) - 44.7
+<p>Para homens: (72.7*h) - 58</p>
+<p>Para mulheres: (62.1*h) - 44.7</p>
 </p>
 
 <p align="left">
