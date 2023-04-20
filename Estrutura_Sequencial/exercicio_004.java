@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class exercicio_4 {
+public class exercicio_004 {
 
     public static void main(String[] args) {
         
