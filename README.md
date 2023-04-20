@@ -155,3 +155,9 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
 <p align="left">
  <strong> 18. </strong> Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 </p>
+
+
+
+
+<h2 align="center">Estrutura de decisão</h2 
+<h3 align="center">Em breve, próximo tema a ser abordado </h3>
