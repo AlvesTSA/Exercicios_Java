@@ -29,6 +29,37 @@ Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem q
  <strong> f)</strong> Como realizar operações matemáticas
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
+
+<p align="center">
+  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre estrutura de decisão.</strong>
+</p>
+
+<p align="left">
+<strong>  a)</strong> Como declarar variáveis
+</p>
+<p align="left">
+<strong>  b)</strong> Como atribuir valores para variáveis
+</p>
+<p align="left">
+<strong>  c)</strong> Como funcionam os tipos de dados de cada variável (inteiro, string, etc)
+</p>
+<p align="left">
+ <strong> d)</strong>Como realizar a entrada de dados usando o teclado 
+</p>
+<p align="left">
+ <strong> e)</strong> Como realizar a saída de dados usando o terminal
+</p>
+<p align="left">
+ <strong> f)</strong> Como realizar operações matemáticas
+</p>
+<p align="left">
+ <strong> g)</strong> O que são e como usar os conectores lógicos (and, or)
+</p>
+<p align="left">
+ <strong> h)</strong> Compreender o que são e como usar condicionais (IF e Else)
+</p>
+<p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
+
 <h3>Regras</h3>
 
 <p>Construa um programa para cada exercício a seguir;</p>
@@ -128,14 +159,14 @@ C = 5 * ((F-32) / 9).
 <p align="left">
  <strong> f)</strong> o salário líquido.
  <p>-calcule os descontos e o salário líquido, conforme a tabela abaixo:</p>
+ <pre>
 <p>+ Salário Bruto : R$</p>
 <p>- IR (11%) : R$</p>
 <p>- INSS (8%) : R$</p>
 <p>- Sindicato ( 5%) : R$</p>
 <p>= Salário Liquido : R$</p>
-<p>Obs.: Salário Bruto - Descontos = Salário Líquido.</p>
-</p>
-
+<p><strong>Obs.:</strong> Salário Bruto - Descontos = Salário Líquido.</p>
+ </pre>
 <p align="left">
  <strong> 16. </strong> Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 </p>
@@ -157,7 +188,49 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
 </p>
 
 
-
-
 <h2 align="center">Estrutura de decisão</h2 
-<h3 align="center">Em breve, próximo tema a ser abordado </h3>
+
+
+<p align="left">
+ <strong> 1. </strong> Faça um Programa que peça dois números e imprima o maior deles.
+</p>
+
+<p align="left">
+ <strong> 2. </strong> Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+</p>
+
+<p align="left">
+ <strong> 3. </strong> Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+</p>
+
+<p align="left">
+ <strong> 4. </strong> Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+</p>
+
+<p align="left">
+ <strong> 5. </strong> Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+ <pre>
+ <p>A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; </p>
+ <p>A mensagem "Reprovado", se a média for menor do que sete; </p>
+ <p>A mensagem "Aprovado com Distinção", se a média for igual a dez.</p>
+</pre>
+</p>
+<p align="left">
+ <strong> 6. </strong> Faça um Programa que leia três números e mostre o maior deles.
+</p>
+
+<p align="left">
+ <strong> 7. </strong> Faça um Programa que leia três números e mostre o maior e o menor deles.
+</p>
+
+<p align="left">
+ <strong> 8. </strong> Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+</p>
+
+<p align="left">
+ <strong> 9. </strong> Faça um Programa que leia três números e mostre-os em ordem decrescente.
+</p>
+
+<p align="left">
+ <strong> 10. </strong> Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+</p>
