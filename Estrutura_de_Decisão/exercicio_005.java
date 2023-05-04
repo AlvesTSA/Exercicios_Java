@@ -26,7 +26,7 @@ public class exercicio_005 {
 
         media = (nota1 + nota2)/2;
 
-        if (media > 0 && media < 7) {
+        if (media >= 0 && media < 7) {
             
             System.out.print("REPROVADO !");
 
