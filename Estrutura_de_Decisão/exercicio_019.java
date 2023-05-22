@@ -1,73 +1,99 @@
-/* Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida. 
-*/
+/*Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.*/
 
 import java.util.Scanner;
 
-class exercicio_019{
+public class exercicio_019{
 
     public static void main(String[] args){
 
-        int dia = 0;
-        int mes = 0;
-        int ano = 0;
-        boolean data = true;
+        int num1 = 0;
+        int num2 = 0;
+        int resultado = 0;
+        int op = 0;
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Informe uma data dd/mm/aaaa: ");
-        dia = scanner.nextInt(); 
-        mes = scanner.nextInt(); 
-        ano = scanner.nextInt();
+        System.out.println("Informe dois números: ");
+        num1 = scanner.nextInt();
+        num2 = scanner.nextInt();
+        System.out.println("Escolha a operação\n\n[1]Adição\n[2]Subtração\n[3]Multiplicação\n[4]Divisão\n");
+        op = scanner.nextInt();
 
-        if (ano < 0) {
+        switch (op){
+        case 1:
 
-            data = false;
-        } 
-        else if (mes <= 0 || mes > 12) {
+            resultado = num1 + num2;
 
-            data = false;
+            break;
+        
+        case 2:
+        
+            resultado = num1 - num2;
 
-        }
-        else if (dia <= 0 || dia > 31) {
+            break;
+        
+        case 3:
 
-            data = false;
+            resultado = num1*num2;
+        
+            break;
+        
+        case 4:
 
-        } 
-        else if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30) {
-            data = false;
+            if(num2 == 0){
 
-        } 
-        else if (mes == 2) {
-
-            if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)) {
-
-                if (dia > 29) {
-
-                    data = false;
-                }
-            }
-            else {
-
-                if (dia > 28) {
-
-                    data = false;
-                }
-            }
-        }
-
-        if (data) {
-
-            System.out.println("Data: " + String.format("%02d", dia) + "/" + String.format("%02d", mes) + "/" + String.format("%04d", ano));
+                System.out.println("Não existe divisão por zero.");
             
-        } 
-        else {
+                System.exit(0);
 
-            System.out.println("Data inválida! Tente novamente.");
+            }
+            else{
+
+                resultado = num1/num2;
+
+            }
+
+            break;
+        
+        default:
+
+            System.out.println("Informe uma opção válida.");
+
+            System.exit(0);
+
+            break;
         }
 
+        if(resultado % 2 == 0){
+
+            if(resultado > 0){
+
+                System.out.println("Resultado: " + resultado + "  é par e positivo."); 
+
+            }
+            else if(resultado == 0){
+
+                System.out.println("Resultado: " + resultado + "  é par e neutro.");
+
+            }
+            else{
+
+                System.out.println("Resultado: " + resultado + "  é par e negativo.");
+            }
+        }
+        else{
+
+            if(resultado < 0){
+
+                System.out.println("Resultado: " + resultado + "  é impar e negativo.");
+            }
+            else{
+
+                System.out.println("Resultado: " + resultado + "  é impar e positivo.");
+            }
+        } 
+        
         scanner.close();
     }
+
 }
-
-
-    
