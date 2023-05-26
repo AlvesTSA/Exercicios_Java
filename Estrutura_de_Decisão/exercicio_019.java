@@ -6,92 +6,67 @@ public class exercicio_019{
 
     public static void main(String[] args){
 
-        int num1 = 0;
-        int num2 = 0;
-        int resultado = 0;
-        int op = 0;
+        int dia = 0;
+        int mes = 0;
+        int ano = 0;
+        boolean data = true;
 
         Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Informe dois números: ");
-        num1 = scanner.nextInt();
-        num2 = scanner.nextInt();
-        System.out.println("Escolha a operação\n\n[1]Adição\n[2]Subtração\n[3]Multiplicação\n[4]Divisão\n");
-        op = scanner.nextInt();
-
-        switch (op){
-        case 1:
-
-            resultado = num1 + num2;
-
-            break;
+    
+        System.out.println("Informe uma data dd/mm/aaaa: ");
+        dia = scanner.nextInt();
+        mes = scanner.nextInt();
+        ano = scanner.nextInt();
         
-        case 2:
-        
-            resultado = num1 - num2;
-
-            break;
-        
-        case 3:
-
-            resultado = num1*num2;
-        
-            break;
-        
-        case 4:
-
-            if(num2 == 0){
-
-                System.out.println("Não existe divisão por zero.");
+        if (ano < 0){
             
-                System.exit(0);
-
-            }
-            else{
-
-                resultado = num1/num2;
-
-            }
-
-            break;
-        
-        default:
-
-            System.out.println("Informe uma opção válida.");
-
-            System.exit(0);
-
-            break;
+            data = false;
+    
         }
-
-        if(resultado % 2 == 0){
-
-            if(resultado > 0){
-
-                System.out.println("Resultado: " + resultado + "  é par e positivo."); 
-
-            }
-            else if(resultado == 0){
-
-                System.out.println("Resultado: " + resultado + "  é par e neutro.");
-
+        else if(mes <= 0 || mes > 12){
+    
+            data = false;
+    
+        }
+        else if(dia <= 0 || dia > 31){
+    
+            data = false;
+    
+        }
+        else if((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30){
+    
+            data = false;
+    
+        }
+        else if(mes == 2){
+    
+            if((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)){
+    
+                if(dia > 29){
+    
+                    data = false;
+    
+                }
             }
             else{
-
-                System.out.println("Resultado: " + resultado + "  é par e negativo.");
+    
+                if(dia > 28){
+    
+                    data = false;
+    
+                }
             }
+        }
+        if(data){
+    
+            System.out.printf("Data: %02d/%02d/%04d", dia, mes, ano);
+    
         }
         else{
-
-            if(resultado < 0){
-
-                System.out.println("Resultado: " + resultado + "  é impar e negativo.");
-            }
-            else{
-
-                System.out.println("Resultado: " + resultado + "  é impar e positivo.");
-            }
-        } 
+    
+            System.out.printf("Data inválida! Tente novamente.");
+        }
+    
         
         scanner.close();
     }
