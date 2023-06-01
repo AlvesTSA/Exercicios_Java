@@ -188,6 +188,10 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
 <p align = "justify">
  <strong> 18. </strong> Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 </p>
+
+<p align = "justify">
+ <strong> 19. </strong> Crie um programa que peça um número ao usuário e armazene ele na variável x. Depois peça outro número e armazene na variável y. Mostre esses números. Em seguida, faça com que x passe a ter o valor de y, e que y passe a ter o valor de x.
+</p>
 </details>
 <details>
 <summary align = "center">
@@ -375,11 +379,7 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
 </p>
 
 <p align = "justify">
- <strong> 26. </strong>  Crie um programa que peça um número ao usuário e armazene ele na variável x. Depois peça outro número e armazene na variável y. Mostre esses números. Em seguida, faça com que x passe a ter o valor de y, e que y passe a ter o valor de x.
-</p>
-
-<p align = "justify">
- <strong> 27. </strong>  Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+ <strong> 26. </strong>  Uma fruteira está vendendo frutas com a seguinte tabela de preços:
 <pre>
   <p>Até 5 Kg de morango: R$ 2,50 por Kg </p>
   <p>Acima de 5 Kg de morango: R$ 2,20 por Kg</p>
@@ -390,7 +390,7 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
 </p>
 
 <p align = "justify">
- <strong> 28. </strong>O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+ <strong> 27. </strong>O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
 <pre>
   <p>Até 5 Kg de File Duplo: R$ 4,90 por Kg </p>
   <p>Acima de 5 Kg de File Duplo: R$ 5,80 por Kg</p>
