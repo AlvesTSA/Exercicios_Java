@@ -5,6 +5,7 @@
 
 <h1 align="center">Conhecendo e treinando Java</h1>
 
+
 <p align="justify">Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem que você preferir, apenas tome cuidado e os adapte a medida que você percebe as limitações de cada linguagem.</p>
 <p align="center">
   💼 Skills: <strong>pré-requisito para resolver os exercícios sobre estrutura sequencial.</strong>
@@ -60,6 +61,39 @@
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
 
+<p align="center">
+  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre estrutura de repetição.</strong>
+</p>
+
+<p align="left">
+<strong>  a)</strong> Como declarar variáveis
+</p>
+<p align="left">
+<strong>  b)</strong> Como atribuir valores para variáveis
+</p>
+<p align="left">
+<strong>  c)</strong> Como funcionam os tipos de dados de cada variável (inteiro, string, etc)
+</p>
+<p align="left">
+ <strong> d)</strong>Como realizar a entrada de dados usando o teclado 
+</p>
+<p align="left">
+ <strong> e)</strong> Como realizar a saída de dados usando o terminal
+</p>
+<p align="left">
+ <strong> f)</strong> Como realizar operações matemáticas
+</p>
+<p align="left">
+ <strong> g)</strong> O que são e como usar os conectores lógicos (and, or)
+</p>
+<p align="left">
+ <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
+</p>
+<p align="left">
+ <strong> i)</strong> Compreender o que são e como usar laços de repetição (for e while)
+</p>
+<p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
+
 <h3>Regras</h3>
 
 <p>Construa um programa para cada exercício a seguir;</p>
@@ -68,7 +102,7 @@
 
 <details>
 <summary align = "center"> 
-<h2 align = "center">Estrutura sequencial</h2>
+<h2 align = "center">Estrutura Sequencial</h2>
 </summary>
 
 <p align = "justify">
@@ -195,7 +229,7 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
 </details>
 <details>
 <summary align = "center">
-<h2 align = "center">Estrutura de decisão</h2>
+<h2 align = "center">Estrutura de Decisão</h2>
 </summary>
 
 <p align = "justify">
@@ -402,3 +436,377 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
 <p align = "justify">Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.</p>
 </p>
 </details>
+
+<details>
+<summary align = "center">
+<h2 align = "center">Estrutura de Repetição</h2>
+</summary>
+
+<p align = "justify">
+ <strong> 1. </strong> Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+</p>
+
+<p align = "justify">
+ <strong> 2. </strong> Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+</p>
+
+<p align = "justify">
+ <strong> 3. </strong> Faça um programa que leia e valide as seguintes informações:
+  <pre>
+ <p>Nome: maior que 3 caracteres; </p>
+ <p>Idade: entre 0 e 150; </p>
+ <p> Salário: maior que zero;</p>
+ <p> Sexo: 'f' ou 'm';</p>
+ <p> Estado Civil: 's', 'c', 'v', 'd';</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 4. </strong> Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+</p>
+
+<p align = "justify">
+ <strong> 5. </strong> Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
+</p>
+<p align = "justify">
+ <strong> 6. </strong> Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
+</p>
+
+<p align = "justify">
+ <strong> 7. </strong> Faça um programa que leia 5 números e informe o maior número.
+</p>
+
+<p align = "justify">
+ <strong> 8. </strong> Faça um programa que leia 5 números e informe a soma e a média dos números.
+</p>
+
+<p align = "justify">
+ <strong> 9. </strong> Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
+</p>
+
+<p align = "justify">
+ <strong> 10. </strong> Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
+</p>
+ 
+<p align = "justify">
+ <strong> 11. </strong> Altere o programa anterior para mostrar no final a soma dos números.
+</p>
+
+<p align = "justify">
+ <strong> 12. </strong> Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+<pre>
+  <p>Tabuada de 5: </p>
+  <p> 5 X 1 = 5 </p>
+  <p>5 X 2 = 10</p>
+  <p> ...</p>
+  <p>5 X 10 = 50</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 13. </strong> Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem.
+</p>
+
+<p align = "justify">
+ <strong> 14. </strong> Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
+</p>
+
+<p align = "justify">
+ <strong> 15. </strong> A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo. 
+</p>
+
+<p align = "justify">
+ <strong> 16. </strong>  A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa que gere a série até que o valor seja maior que 500.
+</p>
+
+<p align = "justify">
+ <strong> 17. </strong> Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120
+</p>
+
+<p align = "justify">
+ <strong> 18. </strong> . Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores.
+</p>
+
+<p align = "justify">
+ <strong> 19. </strong> . Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
+ </p>
+
+ <p align = "justify">
+ <strong> 20. </strong>Altere o programa de cálculo do fatorial, permitindo ao usuário calcular o fatorial várias vezes e limitando o fatorial a números inteiros positivos e menores que 16.
+</p>
+
+ <p align = "justify">
+ <strong> 21. </strong> Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+</p>
+
+<p align = "justify">
+ <strong> 22. </strong> Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, por quais número ele é divisível.
+</p>
+
+<p align = "justify">
+ <strong> 23. </strong> Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido pelo usuário. O programa deverá mostrar também o número de divisões que ele executou para encontrar os números primos. Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados.
+</p>
+
+<p align = "justify">
+ <strong> 24. </strong>Faça um programa que calcule o mostre a média aritmética de N notas.
+</p>
+
+<p align = "justify">
+ <strong> 25. </strong> Faça um programa que peça para n pessoas a sua idade, ao final o programa devera verificar se a média de idade da turma varia entre 0 e 25,26 e 60 e maior que 60; e então, dizer se a turma é jovem, adulta ou idosa, conforme a média calculada.  
+</p>
+
+<p align = "justify">
+ <strong> 26. </strong>  Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores. Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
+</p>
+
+<p align = "justify">
+ <strong> 27. </strong>Faça um programa que calcule o número médio de alunos por turma. Para isto, peça a quantidade de turmas e a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos.
+</p>
+
+<p align = "justify">
+ <strong> 28. </strong>Faça um programa que calcule o valor total investido por um colecionador em sua coleção de CDs e o valor médio gasto em cada um deles. O usuário deverá informar a quantidade de CDs e o valor para em cada um.
+</p>
+
+<p align = "justify">
+ <strong> 29. </strong>O Sr. Manoel Joaquim possui uma grande loja de artigos de R$ 1,99, com cerca de 10 caixas. Para agilizar o cálculo de quanto cada cliente deve pagar ele desenvolveu um tabela que contém o número de itens que o cliente comprou e ao lado o valor da conta. Desta forma a atendente do caixa precisa apenas contar quantos itens o cliente está levando e olhar na tabela de preços. Você foi contratado para desenvolver o programa que monta esta tabela de preços, que conterá os preços de 1 até 50 produtos, conforme o exemplo abaixo:
+ <pre>
+  <p>Lojas Quase Dois - Tabela de preços </p>
+  <p>1 - R$ 1.99 </p>
+  <p>2 - R$ 3.98</p>
+  <p> ...</p>
+  <p>50 - R$ 99.50</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 30. </strong>O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que já é um sucesso na sua loja de 1,99. Você foi contratado para desenvolver o programa que monta a tabela de preços de pães, de 1 até 50 pães, a partir do preço do pão informado pelo usuário, conforme o exemplo abaixo:
+ <pre>
+  <p>Preço do pão: R$ 0.18 </p>
+  <p>Panificadora Pão de Ontem - Tabela de preços </p>
+  <p>1 - R$ 0.18</p>
+  <p>2 - R$ 0.36</p>
+  <p>...</p>
+  <p>50 - R$ 9.00</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 31. </strong>O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
+<pre>
+  <p>Lojas Tabajara </p>
+  <p>Produto 1: R$ 2.20 </p>
+  <p>Produto 2: R$ 5.80</p>
+  <p>Produto 3: R$ 0</p>
+  <p>Total: R$ 9.00</p>
+  <p>Dinheiro: R$ 20.00</p>
+  <p>Troco: R$ 11.00</p>
+  <p>...</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 32. </strong>Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120. A saída deve ser conforme o exemplo abaixo:
+<pre>
+  <p>Fatorial de: 5 </p>
+  <p>5! =  5 . 4 . 3 . 2 . 1 = 120 </p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 33. </strong>O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
+</p>
+
+<p align = "justify">
+ <strong> 34. </strong>Os números primos possuem várias aplicações dentro da Computação, por exemplo na Criptografia. Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
+</p>
+
+<p align = "justify">
+ <strong> 35. </strong>Encontrar números primos é uma tarefa difícil. Faça um programa que gera uma lista dos números primos existentes entre 1 e um número inteiro informado pelo usuário.
+</p>
+
+<p align = "justify">
+ <strong> 36. </strong>Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados também pelo usuário, conforme exemplo abaixo:
+<pre>
+  <p>Montar a tabuada de: 5 </p>
+  <p>Começar por: 4 </p>
+  <p>Terminar em: 7</p>
+  <p>Vou montar a tabuada de 5 começando em 4 e terminando em 7:</p>
+  <p>5 X 4 = 20</p>
+  <p>5 X 5 = 25</p>
+  <p>5 X 6 = 30</p>
+  <p>5 X 7 = 35</p>
+</pre>
+<p>Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.</p>
+</p>
+
+<p align = "justify">
+ <strong> 37. </strong>Uma academia deseja fazer um senso entre seus clientes para descobrir o mais alto, o mais baixo, a mais gordo e o mais magro, para isto você deve fazer um programa que pergunte a cada um dos clientes da academia seu código, sua altura e seu peso. O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero) no campo código. Ao encerrar o programa também deve ser informados os códigos e valores do clente mais alto, do mais baixo, do mais gordo e do mais magro, além da média das alturas e dos pesos dos clientes.
+</p>
+
+<p align = "justify">
+ <strong> 38. </strong>Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que:
+<pre>
+  <p align = "justify">Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00; </p>
+  <p align = "justify">Em 1996 recebeu aumento de 1,5% sobre seu salário inicial; </p>
+  <p align = "justify">A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 39. </strong>Faça um programa que leia dez conjuntos de dois valores, o primeiro representando o número do aluno e o segundo representando a sua altura em centímetros. Encontre o aluno mais alto e o mais baixo. Mostre o número do aluno mais alto e o número do aluno mais baixo, junto com suas alturas.
+</p>
+
+<p align = "justify">
+ <strong> 40. </strong>Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. Foram obtidos os seguintes dados:
+<pre>
+  <p align = "justify">Código da cidade;</p>
+  <p align = "justify">Número de veículos de passeio (em 1999); </p>
+  <p align = "justify">Número de acidentes de trânsito com vítimas (em 1999).</p>
+  <p>Deseja-se saber:</p>
+  <p align = "justify">Qual o maior e menor índice de acidentes de transito e a que cidade pertence;</p>
+  <p align = "justify">Qual a média de veículos nas cinco cidades juntas;</p>
+  <p align = "justify">Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 41. </strong>Faça um programa que receba o valor de uma dívida e mostre uma tabela com os seguintes dados: valor da dívida, valor dos juros, quantidade de parcelas e valor da parcela.
+<pre>
+  <p>Os juros e a quantidade de parcelas seguem a tabela abaixo:</p>
+  <p align = "justify">Quantidade de Parcelas  % de Juros sobre o valor inicial da dívida</p>
+  <p align = "justify">1       0 </p>
+  <p align = "justify">3       10</p>
+  <p align = "justify">6       15</p>
+  <p align = "justify">9       20</p>
+  <p align = "justify">12      25</p>
+  <p>Exemplo de saída do programa:</p>
+  <p align = "justify">Valor da Dívida Valor dos Juros Quantidade de Parcelas  Valor da Parcela</p>
+  <p align = "justify">R$ 1.000,00     0               1</p>
+  <p align = "justify">R$  1.000,00</p>
+  <p align = "justify">R$ 1.100,00     100             3</p>
+  <p align = "justify">R$    366,00</p>
+  <p align = "justify">R$ 1.150,00     150             6</p>
+  <p align = "justify">R$    191,67</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 42. </strong>Faça um programa que leia uma quantidade indeterminada de números positivos e conte quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100]. A entrada de dados deverá terminar quando for lido um número negativo.
+</p>
+
+<p align = "justify">
+ <strong> 43. </strong>O cardápio de uma lanchonete é o seguinte: 
+<pre>
+  <p align = "justify">Especificação   Código  Preço</p>
+  <p align = "justify">Cachorro Quente 100     R$ 1,20</p>
+  <p align = "justify">Bauru Simples   101     R$ 1,30</p>
+  <p align = "justify">Bauru com ovo   102     R$ 1,50</p>
+  <p align = "justify">Hambúrguer      103     R$ 1,20</p>
+  <p align = "justify">Cheeseburguer   104     R$ 1,30</p>
+  <p align = "justify">Refrigerante    105     R$ 1,00</p>
+</pre>
+<p align = "justify">Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado.</p>
+</p>
+
+<p align = "justify">
+ <strong> 44. </strong>Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. Os códigos utilizados são: 
+<pre>
+  <p align = "justify">1, 2, 3, 4  - Votos para os respectivos candidatos 
+(você deve montar a tabela ex: 1 - Jose/ 2- João/etc)</p>
+  <p align = "justify">5 - Voto Nulo</p>
+  <p align = "justify">6 - Voto em Branco</p>
+</pre>
+ <p>Faça um programa que calcule e mostre:</p>
+ <pre>
+<p align = "justify">O total de votos para cada candidato;</p>
+  <p align = "justify">O total de votos nulos;</p>
+  <p align = "justify">O total de votos em branco;</p>
+  <p align = "justify">A percentagem de votos nulos sobre o total de votos;</p>
+  <p align = "justify">A percentagem de votos em branco sobre o total de votos.</p>
+  </pre>
+<p align = "justify">Para finalizar o conjunto de votos tem-se o valor zero.</p>
+</p>
+
+<p align = "justify">
+ <strong> 45. </strong>Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
+ <p align="left">
+<strong>  a)</strong> Maior e Menor Acerto;
+</p>
+<p align="left">
+<strong>  b)</strong> Total de Alunos que utilizaram o sistema;
+</p>
+<p align="left">
+<strong>  c)</strong> A Média das Notas da Turma.
+</p>
+<pre>
+  <p align = "justify">Gabarito da Prova:</p>
+  <p align = "justify">01 - A</p>
+  <p align = "justify">02 - B</p>
+  <p align = "justify">03 - C</p>
+  <p align = "justify">04 - D</p>
+  <p align = "justify">05 - E</p>
+  <p align = "justify">06 - E</p>
+  <p align = "justify">07 - D</p>
+  <p align = "justify">08 - C</p>
+  <p align = "justify">09 - B</p>
+  <p align = "justify">10 - A</p>
+</pre>
+<p align = "justify">Após concluir isto você poderia incrementar o programa permitindo que o professor digite o gabarito da prova antes dos alunos usarem o programa.</p>
+</p>
+
+<p align = "justify">
+ <strong> 46. </strong>Em uma competição de salto em distância cada atleta tem direito a cinco saltos. No final da série de saltos de cada atleta, o melhor e o pior resultados são eliminados. O seu resultado fica sendo a média dos três valores restantes. Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe a média dos saltos conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média). Faça uso de uma lista para armazenar os saltos. Os saltos são informados na ordem da execução, portanto não são ordenados. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
+<pre>
+  <p align = "justify">Atleta: Rodrigo Curvêllo</p>
+  <p align = "justify">Primeiro Salto: 6.5 m</p>
+  <p align = "justify">Segundo Salto: 6.1 m</p>
+  <p align = "justify">Terceiro Salto: 6.2 m</p>
+  <p align = "justify">Quarto Salto: 5.4 m</p>
+  <p align = "justify">Quinto Salto: 5.3 m</p>
+  <p align = "justify">Melhor salto:  6.5 m</p>
+  <p align = "justify">Pior salto: 5.3 m</p>
+  <p align = "justify">Média dos demais saltos: 5.9 m</p>
+  <p align = "justify">Resultado final:</p>
+  <p align = "justify">Rodrigo Curvêllo: 5.9 m</p>
+</pre>
+
+<p align = "justify">
+ <strong> 47. </strong>Em uma competição de ginástica, cada atleta recebe votos de sete jurados. A melhor e a pior nota são eliminadas. A sua nota fica sendo a média dos votos restantes. Você deve fazer um programa que receba o nome do ginasta e as notas dos sete jurados alcançadas pelo atleta em sua apresentação e depois informe a sua média, conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média com as notas restantes). As notas não são informados ordenadas. Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
+<pre>
+  <p align = "justify">Atleta: Aparecido Parente</p>
+  <p align = "justify">Nota: 9.9</p>
+  <p align = "justify">Nota: 7.5</p>
+  <p align = "justify">Nota: 9.5</p>
+  <p align = "justify">Nota: 8.5</p>
+  <p align = "justify">Nota: 9.0</p>
+  <p align = "justify">Nota: 8.5</p>
+  <p align = "justify">Nota: 9.7</p>
+</pre>
+<pre><p align = "justify">Resultado final:</p>
+  <p align = "justify">Atleta: Aparecido Parente</p>
+  <p align = "justify">Melhor nota: 9.9</p>
+  <p align = "justify">Pior nota: 7.5</p>
+  <p align = "justify">Média: 9,04</p>
+  </pre>
+
+<p align = "justify">
+ <strong> 48. </strong>Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
+ </p>
+ <p>Exemplo:</p>
+ <pre>
+ <p>12376489</p>
+ <p>=> 98467321</p>
+ </pre>
+
+<p align = "justify">
+ <strong> 49. </strong>Faça um programa que mostre os n termos da Série a seguir:
+ <pre><p>S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.</p>
+ </pre>
+ <p>Imprima no final a soma da série.</p>
+ </p>
+ 
+ <p align = "justify">
+ <strong> 50. </strong>Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos.
+ </p>
+</details>
+
