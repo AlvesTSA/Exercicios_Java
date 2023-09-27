@@ -6,9 +6,10 @@ public class exercicio_013 {
     
     public static void main(String[] args){
 
-        int base = 0;
+        double base = 0;
         int expoente = 0;
-        int resultado = 0;
+        double resultado = 0;
+        int i = 0;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -18,10 +19,33 @@ public class exercicio_013 {
         resultado = base;
         System.out.print(base + " elevado a " + expoente + " = ");
 
-        for(int i = 1; i < expoente; i++){
+        if (expoente > 0){
 
-            resultado *= base;
+            i = 1;
 
+            while (i != expoente){
+                
+                i++;
+                resultado *= base;
+            }
+            
+        }
+        else if (expoente < 0){
+
+            i = 1;
+            expoente *= -1;
+
+            while (i != expoente){
+                
+                i++;
+                resultado *= base;
+            }
+            
+            resultado = 1/resultado;
+        }
+        else{
+
+            resultado = 1;
         }
 
         System.out.println(resultado);
