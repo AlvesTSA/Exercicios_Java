@@ -90,7 +90,43 @@
  <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
 </p>
 <p align="left">
- <strong> i)</strong> Compreender o que são e como usar laços de repetição (for e while)
+ <strong> i)</strong> Compreender o que são e como usar laços de repetição (for, while e do-while)
+</p>
+<p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
+
+<p align="center">
+  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre vetores, array ou listas.</strong>
+</p>
+
+<p align="left">
+<strong>  a)</strong> Como declarar variáveis
+</p>
+<p align="left">
+<strong>  b)</strong> Como atribuir valores para variáveis
+</p>
+<p align="left">
+<strong>  c)</strong> Como funcionam os tipos de dados de cada variável (inteiro, string, etc)
+</p>
+<p align="left">
+ <strong> d)</strong>Como realizar a entrada de dados usando o teclado 
+</p>
+<p align="left">
+ <strong> e)</strong> Como realizar a saída de dados usando o terminal
+</p>
+<p align="left">
+ <strong> f)</strong> Como realizar operações matemáticas
+</p>
+<p align="left">
+ <strong> g)</strong> O que são e como usar os conectores lógicos (and, or)
+</p>
+<p align="left">
+ <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
+</p>
+<p align="left">
+ <strong> i)</strong> Compreender o que são e como usar laços de repetição (for, while e do-while)
+</p>
+<p align="left">
+ <strong> j)</strong> Compreender como declarar vetores, inicializar vetores e como percorrer vetores. (Vale lembrar que vetores, array ou listas são as mesmas coisas, então são só termos diferentes usados para se referir as mesmas coisas.)
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
 
@@ -810,3 +846,386 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
  </p>
 </details>
 
+
+<details>
+<summary align = "center">
+<h2 align = "center">Vetores, Array ou Listas</h2>
+</summary>
+
+<p align = "justify">
+ <strong> 1. </strong> Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+</p>
+
+<p align = "justify">
+ <strong> 2. </strong> Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
+</p>
+
+<p align = "justify">
+ <strong> 3. </strong> Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+</p>
+
+<p align = "justify">
+ <strong> 4. </strong> Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+</p>
+
+<p align = "justify">
+ <strong> 5. </strong> Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três vetores.
+</p>
+<p align = "justify">
+ <strong> 6. </strong> Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene num vetor a média de cada aluno, imprima o número de alunos com média maior ou igual a 7.0.
+</p>
+
+<p align = "justify">
+ <strong> 7. </strong> Faça um Programa que leia um vetor de 5 números inteiros, mostre a soma, a multiplicação e os números.
+</p>
+
+<p align = "justify">
+ <strong> 8. </strong> Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada informação no seu respectivo vetor. Imprima a idade e a altura na ordem inversa a ordem lida.
+</p>
+
+<p align = "justify">
+ <strong> 9. </strong> Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre a soma dos quadrados dos elementos do vetor.
+</p>
+
+<p align = "justify">
+ <strong> 10. </strong> Faça um Programa que leia dois vetores com 10 elementos cada. Gere um terceiro vetor de 20 elementos, cujos valores deverão ser compostos pelos elementos intercalados dos dois outros vetores.
+</p>
+ 
+<p align = "justify">
+ <strong> 11. </strong> Altere o programa anterior, intercalando 3 vetores de 10 elementos cada.
+</p>
+
+<p align = "justify">
+ <strong> 12. </strong> Foram anotadas as idades e alturas de 30 alunos. Faça um Programa que determine quantos alunos com mais de 13 anos possuem altura inferior à média de altura desses alunos.
+</p>
+
+<p align = "justify">
+ <strong> 13. </strong> Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
+</p>
+
+<p align = "justify">
+ <strong> 14. </strong> Utilizando listas faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+ <pre>
+  <p>"Telefonou para a vítima?" </p>
+  <p>"Esteve no local do crime?" </p>
+  <p>"Mora perto da vítima?"</p>
+  <p>"Devia para a vítima?"</p>
+  <p>"Já trabalhou com a vítima?"</p>
+</pre>
+O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
+</p>
+
+<p align = "justify">
+ <strong> 15. </strong> Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:
+ <pre>
+  <p><strong> a. </strong>Mostre a quantidade de valores que foram lidos; </p>
+  <p><strong> b. </strong>Exiba todos os valores na ordem em que foram informados, um ao lado do outro; </p>
+  <p><strong> c. </strong>Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;</p>
+  <p><strong> d. </strong>Calcule e mostre a soma dos valores;</p>
+  <p><strong> e. </strong>Calcule e mostre a média dos valores;</p>
+  <p><strong> f. </strong>Calcule e mostre a quantidade de valores acima da média calculada;</p>
+  <p><strong> g. </strong>Calcule e mostre a quantidade de valores abaixo de sete;</p>
+  <p><strong> h. </strong>Encerre o programa com uma mensagem;</p>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 16. </strong>  Utilize uma lista para resolver o problema a seguir. Uma empresa paga seus vendedores com base em comissões. O vendedor recebe $200 por semana mais 9 por cento de suas vendas brutas daquela semana. Por exemplo, um vendedor que teve vendas brutas de $3000 em uma semana recebe $200 mais 9 por cento de $3000, ou seja, um total de $470. Escreva um programa (usando um array de contadores) que determine quantos vendedores receberam salários nos seguintes intervalos de valores:
+ <pre>
+  <p><strong> a. </strong>$200 - $299 </p>
+  <p><strong> b. </strong>$300 - $399 </p>
+  <p><strong> c. </strong>$400 - $499</p>
+  <p><strong> d. </strong>$500 - $599</p>
+  <p><strong> e. </strong>$600 - $699</p>
+  <p><strong> f. </strong>$700 - $799</p>
+  <p><strong> g. </strong>$800 - $899</p>
+  <p><strong> h. </strong>$900 - $999</p>
+  <p><strong> i. </strong>$1000 em diante</p>
+</pre>
+Desafio: Crie ma fórmula para chegar na posição da lista a partir do salário, sem fazer vários ifs aninhados.
+</p>
+
+<p align = "justify">
+ <strong> 17. </strong> Em uma competição de salto em distância cada atleta tem direito a cinco saltos. O resultado do atleta será determinado pela média dos cinco valores restantes. Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe o nome, os saltos e a média dos saltos. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
+ <pre>
+Atleta: Rodrigo Curvêllo
+ 
+Primeiro Salto: 6.5 m
+Segundo Salto: 6.1 m
+Terceiro Salto: 6.2 m
+Quarto Salto: 5.4 m
+Quinto Salto: 5.3 m
+
+Resultado final:
+Atleta: Rodrigo Curvêllo
+Saltos: 6.5 - 6.1 - 6.2 - 5.4 - 5.3
+Média dos saltos: 5.9 m
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 18. </strong>Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete feita a um grande quantidade de organizações:
+<pre>
+"Qual o melhor Sistema Operacional para uso em servidores?"
+
+As possíveis respostas são:
+
+1- Windows Server
+2- Unix
+3- Linux
+4- Netware
+5- Mac OS
+6- Outro
+</pre>
+Você foi contratado para desenvolver um programa que leia o resultado da enquete e informe ao final o resultado da mesma. O programa deverá ler os valores até ser informado o valor 0, que encerra a entrada dos dados. Não deverão ser aceitos valores além dos válidos para o programa (0 a 6). Os valores referentes a cada uma das opções devem ser armazenados num vetor. Após os dados terem sido completamente informados, o programa deverá calcular a percentual de cada um dos concorrentes e informar o vencedor da enquete. O formato da saída foi dado pela empresa, e é o seguinte:
+<pre>
+    <table>
+        <tr>
+            <th>Sistema Operacional</th>
+            <th>Votos</th>
+            <th>%</th>
+        </tr>
+        <tr>
+            <td>Windows Server</td>
+            <td>1500</td>
+            <td>17%</td>
+        </tr>
+        <tr>
+            <td>Unix</td>
+            <td>3500</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Linux</td>
+            <td>3000</td>
+            <td>34%</td>
+        </tr>
+        <tr>
+            <td>Netware</td>
+            <td>500</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>Mac OS</td>
+            <td>150</td>
+            <td>2%</td>
+        </tr>
+        <tr>
+            <td>Outro</td>
+            <td>150</td>
+            <td>2%</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <th>8800</th>
+            <th></th>
+        </tr>
+    </table>
+O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 40% dos votos.
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 19. </strong>As Organizações Tabajara resolveram dar um abono aos seus colaboradores em reconhecimento ao bom resultado alcançado durante o ano que passou. Para isto contratou você para desenvolver a aplicação que servirá como uma projeção de quanto será gasto com o pagamento deste abono.
+Após reuniões envolvendo a diretoria executiva, a diretoria financeira e os representantes do sindicato laboral, chegou-se a seguinte forma de cálculo:
+a.Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro; a.O piso do abono será de 100 reais, isto é, aqueles funcionários cujo salário for muito baixo, recebem este valor mínimo; Neste momento, não se deve ter nenhuma preocupação com colaboradores com tempo menor de casa, descontos, impostos ou outras particularidades. Seu programa deverá permitir a digitação do salário de um número indefinido (desconhecido) de salários. Um valor de salário igual a 0 (zero) encerra a digitação. Após a entrada de todos os dados o programa deverá calcular o valor do abono concedido a cada colaborador, de acordo com a regra definida acima. Ao final, o programa deverá apresentar:
+O salário de cada funcionário, juntamente com o valor do abono;
+O número total de funcionário processados;
+O valor total a ser gasto com o pagamento do abono;
+O número de funcionário que receberá o valor mínimo de 100 reais;
+O maior valor pago como abono; A tela abaixo é um exemplo de execução do programa, apenas para fins ilustrativos. Os valores podem mudar a cada execução do programa.
+<pre>
+Projeção de Gastos com Abono
+============================ 
+ 
+Salário: 1000
+Salário: 300
+Salário: 500
+Salário: 100
+Salário: 4500
+Salário: 0
+ 
+Salário    - Abono     
+R$ 1000.00 - R$  200.00
+R$  300.00 - R$  100.00
+R$  500.00 - R$  100.00
+R$  100.00 - R$  100.00
+R$ 4500.00 - R$  900.00
+ 
+Foram processados 5 colaboradores
+Total gasto com abonos: R$ 1400.00
+Valor mínimo pago a 3 colaboradores
+Maior valor de abono pago: R$ 900.00
+</pre>
+ </p>
+
+ <p align = "justify">
+ <strong> 20. </strong>Faça um programa que carregue uma lista com os modelos de cinco carros (exemplo de modelos: FUSCA, GOL, VECTRA etc). Carregue uma outra lista com o consumo desses carros, isto é, quantos quilômetros cada um desses carros faz com um litro de combustível. Calcule e mostre:
+<pre>
+  <p><strong> a. </strong>O modelo do carro mais econômico; </p>
+  <p><strong> b. </strong>Quantos litros de combustível cada um dos carros cadastrados consome para percorrer uma distância de 1000 quilômetros e quanto isto custará, considerando um que a gasolina custe R$ 2,25 o litro. Abaixo segue uma tela de exemplo. O disposição das informações deve ser o mais próxima possível ao exemplo. Os dados são fictícios e podem mudar a cada execução do programa.</p>
+  Comparativo de Consumo de Combustível
+
+Veículo 1
+Nome: fusca
+Km por litro: 7
+Veículo 2
+Nome: gol
+Km por litro: 10
+Veículo 3
+Nome: uno
+Km por litro: 12.5
+Veículo 4
+Nome: Vectra
+Km por litro: 9
+Veículo 5
+Nome: Peugeout
+Km por litro: 14.5
+
+Relatório Final
+ 1 - fusca           -    7.0 -  142.9 litros - R$ 321.43
+ 2 - gol             -   10.0 -  100.0 litros - R$ 225.00
+ 3 - uno             -   12.5 -   80.0 litros - R$ 180.00
+ 4 - vectra          -    9.0 -  111.1 litros - R$ 250.00
+ 5 - peugeout        -   14.5 -   69.0 litros - R$ 155.17
+O menor consumo é do peugeout.
+</pre>
+</p>
+
+ <p align = "justify">
+ <strong> 21. </strong> Sua organização acaba de contratar um estagiário para trabalhar no Suporte de Informática, com a intenção de fazer um levantamento nas sucatas encontradas nesta área. A primeira tarefa dele é testar todos os cerca de 200 mouses que se encontram lá, testando e anotando o estado de cada um deles, para verificar o que se pode aproveitar deles.
+Foi requisitado que você desenvolva um programa para registrar este levantamento. O programa deverá receber um número indeterminado de entradas, cada uma contendo: um número de identificação do mouse o tipo de defeito:
+necessita da esfera;
+necessita de limpeza; a.necessita troca do cabo ou conector; a.quebrado ou inutilizado Uma identificação igual a zero encerra o programa. Ao final o programa deverá emitir o seguinte relatório:
+<pre>
+<h2>Relatório de Mouses</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Situação</th>
+        <th>Quantidade</th>
+        <th>Percentual</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1- Necessita da esfera</td>
+        <td>40</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td>2- Necessita de limpeza</td>
+        <td>30</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <td>3- Necessita troca do cabo ou conector</td>
+        <td>15</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>4- Quebrado ou inutilizado</td>
+        <td>15</td>
+        <td>15%</td>
+      </tr>
+    </tbody>
+  </table>
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 22. </strong> A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos usuários, e identificar os usuários com maior espaço ocupado. Através de um programa, baixado da Internet, ele conseguiu gerar o seguinte arquivo, chamado "usuarios.txt":
+ <pre>
+alexandre       456123789
+anderson        1245698456
+antonio         123456456
+carlos          91257581
+cesar           987458
+rosemary        789456125
+ </pre>
+ Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, você deve criar um programa que gere um relatório, chamado "relatório.txt", no seguinte formato:
+<pre>
+<h2>Relatório de Uso do Espaço em Disco</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nr.</th>
+        <th>Usuário</th>
+        <th>Espaço utilizado</th>
+        <th>% do uso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>alexandre</td>
+        <td>434,99 MB</td>
+        <td>16,85%</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>anderson</td>
+        <td>1187,99 MB</td>
+        <td>46,02%</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>antonio</td>
+        <td>117,73 MB</td>
+        <td>4,56%</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>carlos</td>
+        <td>87,03 MB</td>
+        <td>3,37%</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>cesar</td>
+        <td>0,94 MB</td>
+        <td>0,04%</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>rosemary</td>
+        <td>752,88 MB</td>
+        <td>29,16%</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Espaço total ocupado:</td>
+        <td colspan="2">2581,57 MB</td>
+      </tr>
+      <tr>
+        <td colspan="2">Espaço médio ocupado:</td>
+        <td colspan="2">430,26 MB</td>
+      </tr>
+    </tfoot>
+  </table>
+</pre>
+O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão da espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
+</p>
+
+<p align = "justify">
+ <strong> 23. </strong> Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene os resultados em um vetor . Depois, mostre quantas vezes cada valor foi conseguido. Dica: use um vetor de contadores(1-6) e uma função para gerar numeros aleatórios, simulando os lançamentos dos dados.
+</p>
+
+<p align = "justify">
+ <strong> 24. </strong>Leia um vetor de 5 posições contendo os caracteres de um numero. Em seguida escreva esse numero por extenso.
+</p>
+
+<p align = "justify">
+ <strong> 25. </strong>  Considere um vetor de trajetórias de 9 elementos, onde cada elemento possui o valor do próximo elemento do vetor a ser lido.
+ <pre>
+Índice       1    2    3    4    5    6    7     8     9                      
+Valor       5    7    6    9     2   8    4     0     3            
+</pre>
+Assim, a seqüência da leitura seria 1, 5, 2, 7, 4, 9, 3, 6, 8, 0            
+
+Faça um algoritmo que seja capaz de ler esse vetor e seguir a trajetória.  
+</p>
+
+</details>
