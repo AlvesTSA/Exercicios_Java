@@ -849,7 +849,7 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
 
 <details>
 <summary align = "center">
-<h2 align = "center">Vetores, Array ou Listas</h2>
+<h2 align = "center">Vetor, Array ou Lista</h2>
 </summary>
 
 <p align = "justify">
@@ -872,7 +872,7 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
  <strong> 5. </strong> Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três vetores.
 </p>
 <p align = "justify">
- <strong> 6. </strong> Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene num vetor a média de cada aluno, imprima o número de alunos com média maior ou igual a 7.0.
+ <strong> 6. </strong> Leia um vetor de 40 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
 </p>
 
 <p align = "justify">
