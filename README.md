@@ -130,6 +130,46 @@
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
 
+
+<p align="center">
+  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre Matrizes.</strong>
+</p>
+
+<p align="left">
+<strong>  a)</strong> Como declarar variáveis
+</p>
+<p align="left">
+<strong>  b)</strong> Como atribuir valores para variáveis
+</p>
+<p align="left">
+<strong>  c)</strong> Como funcionam os tipos de dados de cada variável (inteiro, string, etc)
+</p>
+<p align="left">
+ <strong> d)</strong>Como realizar a entrada de dados usando o teclado 
+</p>
+<p align="left">
+ <strong> e)</strong> Como realizar a saída de dados usando o terminal
+</p>
+<p align="left">
+ <strong> f)</strong> Como realizar operações matemáticas
+</p>
+<p align="left">
+ <strong> g)</strong> O que são e como usar os conectores lógicos (and, or)
+</p>
+<p align="left">
+ <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
+</p>
+<p align="left">
+ <strong> i)</strong> Compreender o que são e como usar laços de repetição (for, while e do-while)
+</p>
+<p align="left">
+ <strong> j)</strong> Compreender como declarar vetores, inicializar vetores e como percorrer vetores. (Vale lembrar que vetores, array ou listas são as mesmas coisas, então são só termos diferentes usados para se referir as mesmas coisas.)
+</p>
+<p align="left">
+ <strong> k)</strong> Compreender o que são matrizes, como são representadas na programação (geralmente como arrays bidimensionais), como acessar elementos em uma matriz (usando índices de linha e coluna), operações básicas com matrizes (como soma, multiplicação, transposição) e como percorrer uma matriz.
+</p>
+<p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
+
 <h3>Regras</h3>
 
 <p>Construa um programa para cada exercício a seguir;</p>
@@ -1226,6 +1266,206 @@ Valor       5    7    6    9     2   8    4     0     3
 Assim, a seqüência da leitura seria 1, 5, 2, 7, 4, 9, 3, 6, 8, 0            
 
 Faça um algoritmo que seja capaz de ler esse vetor e seguir a trajetória.  
+</p>
+
+</details>
+
+
+<details>
+<summary align = "center">
+<h2 align = "center">Matriz</h2>
+</summary>
+
+<p align = "justify">
+ <strong> 1. </strong> Leia uma matriz 3 x 3 e escreva a localização (linha e a coluna) do maior valor.
+</p>
+
+<p align = "justify">
+ <strong> 2. </strong> Leia uma matriz 6 x 6, conte e escreva quantos valores maiores que 10 ela possui.
+</p>
+
+<p align = "justify">
+ <strong> 3. </strong>  Leia uma matriz 20 x 20. Leia também um valor X. O programa deverá fazer uma busca desse valor na matriz e, ao final escrever a localização (linha e coluna) ou uma mensagem de “não encontrado”.
+</p>
+
+<p align = "justify">
+ <strong> 4. </strong> Leia uma matriz 4 x 4 e troque os valores da 1ª.linha pelos da 4ª.coluna, vice-e-versa. Escrever ao final a matriz obtida
+</p>
+
+<p align = "justify">
+ <strong> 5. </strong> Leia duas matrizes 20 x 20 e escreva os valores da primeira que ocorrem em qualquer posição da segunda.
+</p>
+<p align = "justify">
+ <strong> 6. </strong> Declare uma matriz 5 x 5. Preencha com 1 a diagonal principal e com 0 os demais elementos. Escreva ao final a matriz obtida.
+</p>
+
+<p align = "justify">
+ <strong> 7. </strong> Leia duas matrizes 4 x 4 e escreva uma terceira com os 4 maiores elementos entre as primeiras
+</p>
+
+<p align = "justify">
+ <strong> 8. </strong> Leia uma matriz 8x 8 e escreva o maior elemento da diagonal principal e a soma dos elementos da diagonal secundaria.
+</p>
+
+<p align = "justify">
+ <strong> 9. </strong>  Leia uma matriz 6 x 6 e atribuir o valor 0 para os valores negativos encontrados fora das diagonais principal e secundaria.
+</p>
+
+<p align = "justify">
+ <strong> 10. </strong> Leia uma matriz 50 x 2, onde cada coluna corresponde a um lado de um triangulo retângulo. Declare um vetor que contenha a área dos respectivos triângulos e o escreva.
+</p>
+ 
+<p align = "justify">
+ <strong> 11. </strong> Leia uma matriz 100 x 10 que se refere respostas de 10 questões de múltipla escolha, referentes a 100 alunos. Leia também um vetor de 10 posições contendo o gabarito d e respostas que podem ser a, b, c ou d. Seu programa deverá comparar as respostas de cada candidato com o gabarito e emitir um vetor Resultado, contendo a pontuação correspondente.
+</p>
+
+<p align = "justify">
+ <strong> 12. </strong>Leia uma matriz 4 x 4 e verifique se é palíndromo, isto é, sua leitura a partir de qualquer direção sempre apresentara a mesma seqüência.
+<pre>   EX.                  SATOR
+                        AREPO
+                        TENET
+                        OPERA
+                        ROTAS
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 13. </strong> Criando um tabuleiro de Jogo da Velha
+Crie um tabuleiro de jogo da velha, usando uma matrizes de caracteres (char) 3×3, onde o usuário pede o número da linha (1 até 3) e o da coluna (1 até 3). A cada vez que o usuário entrar com esses dados, colocar um ‘X’ ou ‘O’ no local selecionado.
+</p>
+
+
+<p align = "justify">
+ <strong> 14. </strong> Faça um jogo de batalha naval, utilize as seguinte regras:
+<pre>
+– O primeiro usuário será o que vai configurar o tabuleiro inserindo os navios.
+– O tabuleiro deve ter 8×8
+– Quando inserido todos os navios o restante será considerado como “água”.
+– Cada navio pode ocupar apenas 1 posição
+– O jogador deve respeitar o espaço de 1 célula entre os navios
+– O jogador que irá descobrir onde os navios estão tem apenas 10 tiros
+– O jogador 1 pode posicionar 5 navios
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 15. </strong> Crie uma agenda que armazena, código da pessoa, número do telefone, idade. Sua agenda deve possibilitar:
+<pre>
+(1) – inserir um contato
+(2) – Remover um contato
+(3) – Editar um contato
+(4) – buscar um contato pelo Código.
+</pre>
+</p>
+
+<p align = "justify">
+ <strong> 16. </strong> Criando um tabuleiro de Jogo da Velha
+Crie um tabuleiro de jogo da velha, usando uma matrizes de caracteres (char) 3×3, onde o usuário pede o número da linha (1 até 3) e o da coluna (1 até 3). A cada vez que o usuário entrar com esses dados, colocar um ‘X’ ou ‘O’ no local selecionado.
+</p>
+
+<p align = "justify">
+ <strong> 17. </strong>Leia uma matriz 8 x 8 e a transforme numa matriz triangular inferior , atribuindo zero a todos os elementos acima da diagonal principal, escrevendo-a ao final.
+</p>
+
+<p align = "justify">
+ <strong> 18. </strong>  Leia uma matriz 5 x 5 e faça uma troca entre as diagonais superior e inferior. Escreva-a ao final.
+</p>
+
+<p align = "justify">
+ <strong> 19. </strong>Leia duas matrizes 10 x 10 e faça uma substituição entre a diagonal inferior da primeira coma diagonal superior da segunda.
+</p>
+
+<p align = "justify">
+ <strong> 20. </strong>Considere uma matriz de distância entre cidades 6 x 6:
+
+<table border="1">
+  <tr>
+    <td></td>
+    <td>(Cáceres)</td>
+    <td>(BBugres)</td>
+    <td>(Cuiabá)</td>
+    <td>(VGrande)</td>
+    <td>(Tangará)</td>
+    <td>(PLacerda)</td>
+  </tr>
+  <tr>
+    <td>(Cáceres)</td>
+    <td></td>
+    <td>63</td>
+    <td>210</td>
+    <td>190</td>
+    <td></td>
+    <td>190</td>
+  </tr>
+  <tr>
+    <td>(BBugres)</td>
+    <td>63</td>
+    <td></td>
+    <td>160</td>
+    <td>150</td>
+    <td>95</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>(Cuiabá)</td>
+    <td>210</td>
+    <td>160</td>
+    <td></td>
+    <td>10</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>(VGrande)</td>
+    <td>190</td>
+    <td>150</td>
+    <td>10</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>(Tangará)</td>
+    <td></td>
+    <td>95</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>(PLacerda)</td>
+    <td>190</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>80</td>
+    <td></td>
+  </tr>
+</table>
+Considere também um vetor de viagem indo de Cuiabá até Cáceres pela seguinte          rota:
+
+<table border="1">
+  <tr>
+    <td>Índice</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Cidade</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>5</td>
+    <td>6</td>
+    <td>1</td>
+  </tr>
+</table>
+Faça um programa que leia a matriz e o vetor e calcule a distancia percorrida durante a viagem.
 </p>
 
 </details>
