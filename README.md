@@ -170,6 +170,50 @@
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
 
+
+<p align="center">
+  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre Funções.</strong>
+</p>
+
+<p align="left">
+<strong>  a)</strong> Como declarar variáveis
+</p>
+<p align="left">
+<strong>  b)</strong> Como atribuir valores para variáveis
+</p>
+<p align="left">
+<strong>  c)</strong> Como funcionam os tipos de dados de cada variável (inteiro, string, etc)
+</p>
+<p align="left">
+ <strong> d)</strong>Como realizar a entrada de dados usando o teclado 
+</p>
+<p align="left">
+ <strong> e)</strong> Como realizar a saída de dados usando o terminal
+</p>
+<p align="left">
+ <strong> f)</strong> Como realizar operações matemáticas
+</p>
+<p align="left">
+ <strong> g)</strong> O que são e como usar os conectores lógicos (and, or)
+</p>
+<p align="left">
+ <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
+</p>
+<p align="left">
+ <strong> i)</strong> Compreender o que são e como usar laços de repetição (for, while e do-while)
+</p>
+<p align="left">
+ <strong> j)</strong> Compreender como declarar vetores, inicializar vetores e como percorrer vetores. (Vale lembrar que vetores, array ou listas são as mesmas coisas, então são só termos diferentes usados para se referir as mesmas coisas.)
+</p>
+<p align="left">
+ <strong> k)</strong> Compreender o que são matrizes, como são representadas na programação (geralmente como arrays bidimensionais), como acessar elementos em uma matriz (usando índices de linha e coluna), operações básicas com matrizes (como soma, multiplicação, transposição) e como percorrer uma matriz.
+</p>
+
+<p align="left">
+ <strong> l)</strong> Como declarar e usar funções(return e parâmetros)
+</p>
+<p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
+
 <h3>Regras</h3>
 
 <p>Construa um programa para cada exercício a seguir;</p>
@@ -1467,5 +1511,281 @@ Considere também um vetor de viagem indo de Cuiabá até Cáceres pela seguinte
 </table>
 Faça um programa que leia a matriz e o vetor e calcule a distancia percorrida durante a viagem.
 </p>
+</details>
 
+
+
+<details>
+<summary align = "center"> 
+<h2 align = "center">Função</h2>
+</summary>
+
+<p align = "justify">
+ <strong> 1. </strong> Faça um programa, com uma função que necessite de um argumento. A função retorna o valor de caractere ‘P’, se seu argumento for positivo, e ‘N’, se seu argumento for zero ou negativo.
+</p>
+
+<p align = "justify">
+ <strong> 2. </strong> Faça um programa com uma função chamada somaImposto. A função possui dois parâmetros formais: taxaImposto, que é a quantia de imposto sobre vendas expressa em porcentagem e custo, que é o custo de um item antes do imposto. A função “altera” o valor de custo para incluir o imposto sobre vendas.
+</p>
+
+<p align = "justify">
+ <strong> 3. </strong> Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+</p>
+
+<p align = "justify">
+ <strong> 4. </strong> Faça uma função que recebe por parâmetro o raio de uma esfera e calcula o seu volume (v = 4/3.P .R3).
+</p>
+
+<p align = "justify">
+ <strong> 5. </strong>  Faça uma função que recebe por parâmetro o tempo de duração de uma fábrica expressa em segundos e retorna também por parâmetro esse tempo em horas, minutos e segundos.
+</p>
+
+<p align = "justify">
+ <strong> 6. </strong> Faça uma função que recebe a idade de uma pessoa em anos, meses e dias e retorna essa idade expressa em dias.
+</p>
+
+<p align = "justify">
+ <strong> 7. </strong>  Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo. A função deve retornar um valor booleano.
+</p>
+
+<p align = "justify">
+ <strong> 8. </strong> Faça uma função que recebe um valor inteiro e verifica se o valor é par ou ímpar. A função deve retornar um valor booleano
+</p>
+
+<p align = "justify">
+ <strong> 9. </strong>  Faça uma função que recebe a média final de um aluno por parãmetro e retorna o seu conceito, conforme a tabela abaixo:
+ <table border="1" align="center">
+    <thead>
+        <tr>
+            <th>Nota</th>
+            <th>Conceito</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>de 0,0 a 4,9</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>de 5,0 a 6,9</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>de 7,0 a 8,9</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>de 9,0 a 10,0</td>
+            <td>A</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
+<p align = "justify">
+ <strong> 10. </strong> Escreva um procedimento que recebes 3 valores reais X, Y e Z e que verifique se esses valores podem ser os comprimentos dos lados de um triângulo e, neste caso, retornar qual o tipo de triângulo formado. Para que X, Y e Z formem um triângulo é necessário que a seguinte propriedade seja satisfeita: o comprimento de cada lado de um triângulo é menor do que a soma do comprimento dos outros dois lados. O procedimento deve identificar o tipo de triângulo formado observando as seguintes definições:
+ <ul>
+    <li>Triângulo Equilátero: os comprimentos dos 3 lados são iguais.</li>
+    <li>Triângulo Isósceles: os comprimentos de 2 lados são iguais.</li>
+    <li>Triângulo Escaleno: os comprimentos dos 3 lados são diferentes.</li>
+</ul>
+</p>
+
+<p align = "justify">
+ <strong> 11. </strong> A prefeitura de uma cidade fez uma pesquisa entre os seus habitantes, coletando dados sobre o salário e número de filhos. Faça um procedimento que leia esses dados para um número não determinado de pessoas e retorne a média de salário da população, a média do número de filhos, o maior salário e o percentual de pessoas com salário até R$350,00.
+</p>
+
+<p align = "justify">
+ <strong> 12. </strong>  Faça uma função que leia um número não determinado de valores positivos e retorna a média aritmética dos mesmos.
+</p>
+
+<p align = "justify">
+ <strong> 13. </strong> Faça uma função que receba um valor inteiro e positivo e calcula o seu fatorial.
+</p>
+
+<p align = "justify">
+ <strong> 14. </strong> Faça um procedimento que lê 50 valores inteiros e retorna o maior e o menor deles.
+</p>
+
+<p align = "justify">
+ <strong> 15. </strong> Faça um procedimento que recebe, por parâmetro, um valor N e calcula e escreve a tabuada de 1 até N. Mostre a tabuada na forma:
+
+ <pre><p>1 x N = N<br>2 x N = 2N<br>...<br>N x N = N<sup>2</sup></p></pre>
+
+<p align = "justify">
+ <strong> 16. </strong> Faça uma função que recebe, por parâmetro, um valor inteiro e positivo e retorna o número de divisores desse valor.
+</p>
+
+<p align = "justify">
+ <strong> 17. </strong> Escreva uma função que recebe, por parâmetro, um valor inteiro e positivo e retorna o somatório desse valor.
+
+<p align = "justify">
+ <strong> 18. </strong> Faça um programa para imprimir:
+ <pre>
+1
+2   2
+3   3   3
+.....
+n   n   n   n   n   n  ... n
+</pre>
+para um n informado pelo usuário. Use uma função que receba um valor n inteiro e imprima até a n-ésima linha.
+</p>
+
+<p align = "justify">
+ <strong> 19. </strong> Faça um programa para imprimir:
+ <pre>
+1
+1   2
+1   2   3
+.....
+1   2   3   ...  n
+</pre>
+para um n informado pelo usuário. Use uma função que receba um valor n inteiro imprima até a n-ésima linha.
+</p>
+
+
+<p align = "justify">
+ <strong> 20. </strong> Faça um programa que converta da notação de 24 horas para a notação de 12 horas. Por exemplo, o programa deve converter 14:25 em 2:25 P.M. A entrada é dada em dois inteiros. Deve haver pelo menos duas funções: uma para fazer a conversão e uma para a saída. Registre a informação A.M./P.M. como um valor ‘A’ para A.M. e ‘P’ para P.M. Assim, a função para efetuar as conversões terá um parâmetro formal para registrar se é A.M. ou P.M. Inclua um loop que permita que o usuário repita esse cálculo para novos valores de entrada todas as vezes que desejar.
+</p>
+
+
+<p align = "justify">
+ <strong> 21. </strong>Faça um programa que use a função valorPagamento para determinar o valor a ser pago por uma prestação de uma conta. O programa deverá solicitar ao usuário o valor da prestação e o número de dias em atraso e passar estes valores para a função valorPagamento, que calculará o valor a ser pago e devolverá este valor ao programa que a chamou. O programa deverá então exibir o valor a ser pago na tela. Após a execução o programa deverá voltar a pedir outro valor de prestação e assim continuar até que seja informado um valor igual a zero para a prestação. Neste momento o programa deverá ser encerrado, exibindo o relatório do dia, que conterá a quantidade e o valor total de prestações pagas no dia. O cálculo do valor a ser pago é feito da seguinte forma. Para pagamentos sem atraso, cobrar o valor da prestação. Quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso.
+ </p>
+
+
+<p align = "justify">
+ <strong> 22. </strong>Faça uma função que informe a quantidade de dígitos de um determinado número inteiro informado.
+ </p>
+
+
+ <p align = "justify">
+ <strong> 23. </strong>Reverso do número. Faça uma função que retorne o reverso de um número inteiro informado. Por exemplo: 127 -> 721.
+ </p>
+
+
+ <p align = "justify">
+ <strong> 24. </strong>Escreva um procedimento que recebe as 3 notas de um aluno por parâmetro e uma letra. Se a letra for A o procedimento calcula a média aritmética das notas do aluno, se for P, a sua média ponderada (pesos: 5, 3 e 2) e se for H, a sua média harmônica. A média calculada também deve retornar por parâmetro.
+ </p>
+
+
+ <p align = "justify">
+ <strong> 25. </strong> Faça uma função que recebe por parâmetro um valor inteiro e positivo e retorna o valor lógico Verdadeiro caso o valor seja primo e Falso em caso contrário.
+Intermediário4. Faça um procedimento que recebe por parâmetro os valores necessário para o cálculo da fórmula de báskara e retorna, também por parâmetro, as suas raízes, caso seja possível calcular.
+</p>
+
+
+<p align = "justify">
+<strong> 26. </strong> Faça um procedimento que recebe a idade de um nadador por parâmetro e retorna , também por parâmetro, a categoria desse nadador de acordo com a tabela abaixo:
+<table border="1" align="center">
+    <thead>
+        <tr>
+            <th>Idade</th>
+            <th>Categoria</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>5 a 7 anos</td>
+            <td>Infantil A</td>
+        </tr>
+        <tr>
+            <td>8 a 10 anos</td>
+            <td>Infantil B</td>
+        </tr>
+        <tr>
+            <td>11-13 anos</td>
+            <td>Juvenil A</td>
+        </tr>
+        <tr>
+            <td>14-17 anos</td>
+            <td>Juvenil B</td>
+        </tr>
+        <tr>
+            <td>Maiores de 18 anos (inclusive)</td>
+            <td>Adulto</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
+
+<p align = "justify">
+<strong> 27. </strong>Faça uma função que recebe, por parâmetro, a altura (alt) e o sexo de uma pessoa e retorna o seu peso ideal. Para homens, calcular o peso ideal usando a fórmula peso ideal = 72.7 x alt – 58 e, para mulheres, peso ideal = 62.1 x alt – 44.7.
+</p>
+
+
+<p align = "justify">
+<strong> 28. </strong>Faça um procedimento que recebe 3 valores inteiros por parâmetro e retorna-os ordenados em ordem crescente.
+</p>
+
+
+<p align = "justify">
+<strong> 29. </strong>Jogo de Craps. Faça um programa de implemente um jogo de Craps. O jogador lança um par de dados, obtendo um valor entre 2 e 12. Se, na primeira jogada, você tirar 7 ou 11, você um "natural" e ganhou. Se você tirar 2, 3 ou 12 na primeira jogada, isto é chamado de "craps" e você perdeu. Se, na primeira jogada, você fez um 4, 5, 6, 8, 9 ou 10,este é seu "Ponto". Seu objetivo agora é continuar jogando os dados até tirar este número novamente. Você perde, no entanto, se tirar um 7 antes de tirar este Ponto novamente.
+</p>
+
+
+<p align = "justify">
+<strong> 30. </strong>Data com mês por extenso. Construa uma função que receba uma data no formato DD/MM/AAAA e devolva uma string no formato D de mesPorExtenso de AAAA. Opcionalmente, valide a data e retorne NULL caso a data seja inválida.
+</p>
+
+
+<p align = "justify">
+<strong> 31. </strong>Embaralha palavra. Construa uma função que receba uma string como parâmetro e devolva outra string com os carateres embaralhados. Por exemplo: se função receber a palavra python, pode retornar npthyo, ophtyn ou qualquer outra combinação possível, de forma aleatória. Padronize em sua função que todos os caracteres serão devolvidos em caixa alta ou caixa baixa, independentemente de como foram digitados.
+</p>
+
+
+<p align = "justify">
+<strong> 32. </strong>Desenha moldura. Construa uma função que desenhe um retângulo usando os caracteres ‘+’ , ‘−’ e ‘| ‘. Esta função deve receber dois parâmetros, linhas e colunas, sendo que o valor por omissão é o valor mínimo igual a 1 e o valor máximo é 20. Se valores fora da faixa forem informados, eles devem ser modificados para valores dentro da faixa de forma elegante.
+</p>
+
+
+<p align = "justify">
+<strong> 33. </strong>Quadrado mágico. Um quadrado mágico é aquele dividido em linhas e colunas, com um número em cada posição e no qual a soma das linhas, colunas e diagonais é a mesma. Por exemplo, veja um quadrado mágico de lado 3, com números de 1 a 9:
+<pre>
+8  3  4 
+1  5  9
+6  7  2
+</pre>
+Elabore uma função que identifica e mostra na tela todos os quadrados mágicos com as características acima. Dica: produza todas as combinações possíveis e verifique a soma quando completar cada quadrado. Usar um vetor de 1 a 9 parece ser mais simples que usar uma matriz 3x3.
+</p>
+
+
+<p align = "justify">
+<strong> 34. </strong>Faça uma função que verifique se um valor é perfeito ou não. Um valor é dito perfeito quando ele é igual a soma dos seus divisores excetuando ele próprio. (Ex: 6 é perfeito, 6 = 1 + 2 + 3, que são seus divisores). A função deve retornar um valor booleano.
+</p>
+
+
+<p align = "justify">
+<strong> 35. </strong>Faça um procedimento que recebe, por parâmetro, a hora de inicio e a hora de término de um jogo, ambas subdivididas em 2 valores distintos: horas e minutos. O procedimento deve retornar, também por parâmetro, a duração do jogo em horas e minutos, considerando que o tempo máximo de duração de um jogo é de 24 horas e que o jogo pode começar em um dia e terminar no outro.
+</p>
+
+
+<p align = "justify">
+<strong> 36. </strong>Escreva uma função que recebe por parâmetro um valor inteiro e positivo N e retorna o valor de S.
+<pre>S = 1 + ½ + 1/3 + ¼ + 1/5 + 1/N</pre>
+</p>
+
+
+<p align = "justify">
+<strong> 37. </strong>Escreva uma função que recebe por parâmetro um valor inteiro e positivo N e retorna o valor de S.
+<pre>S = 1 + 1/1! + ½! + 1/3! + 1/N!</pre>
+</p>
+
+
+<p align = "justify">
+<strong> 38. </strong>Escreva uma função que recebe por parâmetro um valor inteiro e positivo N e retorna o valor de S.
+<pre>S = 2/4 + 5/5 + 10/6 + 17/7 + 26/8 + ... +(n2+1)/(n+3)</pre>
+</p>
+
+
+<p align = "justify">
+<strong> 39. </strong>Escreva uma função que calcule o valor do co-seno de x através de 20 termos da série seguinte:
+<pre>co-seno(x) = 1 - x2 + x4 - x6 + ....   2! 4! 6!</pre>
+</p>
+
+
+<p align = "justify">
+<strong> 40. </strong> Escreva uma função que recebe, por parâmetro, dois valores X e Z e calcula e retorna x<sup>z</sup>. (sem utilizar funções ou operadores de potência prontos)
+</p>
 </details>
