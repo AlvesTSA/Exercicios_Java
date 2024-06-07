@@ -1846,25 +1846,6 @@ Larger area: Y
 <li>Realizar uma saída no estoque e mostrar novamente os dados do produto</li>
 Para resolver este problema, você deve criar
 uma CLASSE conforme projeto abaixo:
-
-table {
-    width: 300px;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: left;
-}
-th {
-    background-color: #ffffcc;
-}
-.attributes, .methods {
-    background-color: #ffffe0;
-}
-
-
 <body>
     <table>
         <tr>
@@ -1890,25 +1871,8 @@ th {
         </tr>
     </table>
 </body>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Dados do Produto</title>
-    <style>
-        pre {
-            border: 1px solid black;
-            padding: 10px;
-            background-color: #f9f9f9;
-        }
-        .highlight {
-            color: red;
-        }
-    </style>
-</head>
-<body>
-    <p><strong>Exemplo:</strong></p>
-    <pre>
+  <p><strong>Exemplo:</strong></p>
+  <pre>
 Enter product data:
 Name: <span class="highlight">TV</span>
 Price: <span class="highlight">900.00</span>
