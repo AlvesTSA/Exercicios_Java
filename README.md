@@ -1838,6 +1838,99 @@ Larger area: Y
 </body>
 </p>
 
+
+<p align = "justify">
+<strong> 2. </strong> Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
+ <li>Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque)</li>
+<li>Realizar uma entrada no estoque e mostrar novamente os dados do produto</li>
+<li>Realizar uma saída no estoque e mostrar novamente os dados do produto</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Classe - Produto</title>
+    <style>
+        table {
+            width: 300px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffcc;
+        }
+        .attributes, .methods {
+            background-color: #ffffe0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Product</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Name : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Price : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Quantity : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ TotalValueInStock() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ AddProducts(quantity : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ RemoveProducts(quantity : int) : void</td>
+        </tr>
+    </table>
+</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Dados do Produto</title>
+    <style>
+        pre {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p><strong>Exemplo:</strong></p>
+    <pre>
+Enter product data:
+Name: <span class="highlight">TV</span>
+Price: <span class="highlight">900.00</span>
+Quantity in stock: <span class="highlight">10</span>
+
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+
+Enter the number of products to be added in stock: <span class="highlight">5</span>
+
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+
+Enter the number of products to be removed from stock: <span class="highlight">3</span>
+
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+    </pre>
+</body>
+
+</p>
 </details>
 
 </details>
