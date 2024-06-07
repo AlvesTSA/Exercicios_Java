@@ -1794,7 +1794,7 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 
 <details>
 <summary align = "center">
-<h2 align = "center">Programção Orientada a Objetos</h2>
+<h2 align = "center">Programação Orientada a Objetos</h2>
 </summary>
 
 <details>
@@ -1804,20 +1804,11 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 
 <p align = "justify">
 <strong> 1. </strong> Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos possui a maior área. A fórmula para calcular a área de um triângulo a partir das medidas de seus lados a, b e c é a seguinte (fórmula de Heron): 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <body>
     <p>area = √<span style="text-decoration: overline;">p(p-a)(p-b)(p-c)</span></p>
     <p>onde p = (a + b + c) / 2</p>
 </body>
 </html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <body>
     <p><strong>Exemplo:</strong></p>
     <pre style="border: 1px solid black; padding: 10px;">
