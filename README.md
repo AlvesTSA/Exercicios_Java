@@ -1789,3 +1789,57 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 <strong> 40. </strong> Escreva uma função que recebe, por parâmetro, dois valores X e Z e calcula e retorna x<sup>z</sup>. (sem utilizar funções ou operadores de potência prontos)
 </p>
 </details>
+
+
+
+<details>
+<summary align = "center">
+<h2 align = "center">Programção Orientada a Objetos</h2>
+</summary>
+
+<details>
+<summary align = "center">
+<h3 align = "center">Classes, atributos, métodos, membros estáticos</h3>
+</summary>
+
+<p align = "justify">
+<strong> 1. </strong> Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos possui a maior área. A fórmula para calcular a área de um triângulo a partir das medidas de seus lados a, b e c é a seguinte (fórmula de Heron): 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula da Área do Triângulo</title>
+</head>
+<body>
+    <p>area = √<span style="text-decoration: overline;">p(p-a)(p-b)(p-c)</span></p>
+    <p>onde p = (a + b + c) / 2</p>
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    <p><strong>Exemplo:</strong></p>
+    <pre style="border: 1px solid black; padding: 10px;">
+Enter the measures of triangle X:
+<span style="color: red;">3.00</span>
+<span style="color: red;">4.00</span>
+<span style="color: red;">5.00</span>
+
+Enter the measures of triangle Y:
+<span style="color: red;">7.50</span>
+<span style="color: red;">4.50</span>
+<span style="color: red;">4.02</span>
+
+Triangle X area: 6.0000
+Triangle Y area: 7.5638
+Larger area: Y
+    </pre>
+</body>
+</p>
+
+</details>
+
+</details>
