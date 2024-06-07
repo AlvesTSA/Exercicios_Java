@@ -1807,7 +1807,6 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fórmula da Área do Triângulo</title>
 </head>
 <body>
     <p>area = √<span style="text-decoration: overline;">p(p-a)(p-b)(p-c)</span></p>
@@ -1818,7 +1817,6 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo</title>
 </head>
 <body>
     <p><strong>Exemplo:</strong></p>
