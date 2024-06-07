@@ -1846,29 +1846,25 @@ Larger area: Y
 <li>Realizar uma saída no estoque e mostrar novamente os dados do produto</li>
 Para resolver este problema, você deve criar
 uma CLASSE conforme projeto abaixo:
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diagrama de Classe - Produto</title>
-    <style>
-        table {
-            width: 300px;
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 5px;
-            text-align: left;
-        }
-        th {
-            background-color: #ffffcc;
-        }
-        .attributes, .methods {
-            background-color: #ffffe0;
-        }
-    </style>
-</head>
+
+table {
+    width: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+th {
+    background-color: #ffffcc;
+}
+.attributes, .methods {
+    background-color: #ffffe0;
+}
+
+
 <body>
     <table>
         <tr>
