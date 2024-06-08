@@ -1961,31 +1961,6 @@ Dados atualizados: Joao Silva, R$ 5600.00
 (primeiro trimestre vale 30 e o segundo e terceiro valem 35 cada). Ao final, mostrar qual a nota final do aluno no 
 ano. Dizer também se o aluno está aprovado (PASS) ou não (FAILED) e, em caso negativo, quantos pontos faltam para o aluno obter o mínimo para ser aprovado (que é 60% da nota). Você deve criar uma classe Student para resolver este problema.
 <p><strong>Exemplo:</strong></p>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Tabela de Notas</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        pre {
-            font-family: monospace;
-        }
-    </style>
-</head>
-<body>
-
 <table>
     <tr>
         <th>Entrada:</th>
@@ -2008,33 +1983,6 @@ PASS
         </td>
     </tr>
 </table>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Tabela de Notas</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        pre {
-            font-family: monospace;
-        }
-    </style>
-</head>
-<body>
 
 <table>
     <tr>
@@ -2059,10 +2007,6 @@ MISSING 8.00 POINTS
         </td>
     </tr>
 </table>
-
-</body>
-</html>
-
 </p>
 
 </details>
