@@ -1882,6 +1882,189 @@ Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 </body>
 
 </p>
+
+<p align = "justify">
+<strong> 3. </strong> Fazer um programa para ler os valores da largura e altura de um retângulo. Em seguida, mostrar na tela o valor de sua área, perímetro e diagonal. Usar uma classe como mostrado no projeto abaixo.
+<table border="1" cellpadding="5" cellspacing="0" style="width:200px; border-collapse:collapse; background-color:#ffffe0;">
+    <tr>
+        <th colspan="1" style="background-color:#ffffcc; text-align:center;">Rectangle</th>
+    </tr>
+    <tr>
+        <td>- Width : double</td>
+    </tr>
+    <tr>
+        <td>- Height : double</td>
+    </tr>
+    <tr>
+        <td style="background-color:#ffffcc;">+ Area() : double</td>
+    </tr>
+    <tr>
+        <td style="background-color:#ffffcc;">+ Perimeter() : double</td>
+    </tr>
+    <tr>
+        <td style="background-color:#ffffcc;">+ Diagonal() : double</td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<div style="border: 1px solid #000; padding: 10px; width: 300px;">
+    <pre>
+Enter rectangle width and height:
+<span style="color: red;">3.00</span>
+<span style="color: red;">4.00</span>
+AREA = 12.00
+PERIMETER = 14.00
+DIAGONAL = 5.00
+    </pre>
+</div>
+</p>
+
+<p align = "justify">
+<strong> 4. </strong> Fazer um programa para ler os dados de um funcionário (nome, salário bruto e imposto). Em seguida, mostrar os dados do funcionário (nome e salário líquido). Em seguida, aumentar o salário do funcionário com base em uma porcentagem dada (somente o salário bruto é afetado pela porcentagem) e mostrar novamente os dados do funcionário. Use a classe projetada abaixo.
+<table border="1" cellpadding="5" cellspacing="0" style="width:300px; border-collapse:collapse; background-color:#ffffe0;">
+    <tr>
+        <th colspan="1" style="background-color:#ffffcc; text-align:center;">Employee</th>
+    </tr>
+    <tr>
+        <td>- Name : string</td>
+    </tr>
+    <tr>
+        <td>- GrossSalary : double</td>
+    </tr>
+    <tr>
+        <td>- Tax : double</td>
+    </tr>
+    <tr>
+        <td style="background-color:#ffffcc;">+ NetSalary() : double</td>
+    </tr>
+    <tr>
+        <td style="background-color:#ffffcc;">+ IncreaseSalary(percentage : double) : void</td>
+    </tr>
+</table>
+
+<body>
+<p><strong>Exemplo:</strong></p>
+    <div style="border: 1px solid #000; padding: 10px; width: 300px;">
+        <pre>
+Nome: <span style="color: red;">Joao Silva</span>
+Salário Bruto: <span style="color: red;">6000.00</span>
+Imposto: <span style="color: red;">1000.00</span>
+
+Funcionário: Joao Silva, R$ 5000.00
+Qual porcentagem para aumentar o salário? <span style="color: red;">10.0%</span>
+Dados atualizados: Joao Silva, R$ 5600.00
+        </pre>
+    </div>
+</body>
+
+<p align = "justify">
+<strong> 5. </strong> Fazer um programa para ler o nome de um aluno e as três notas que ele obteve nos três trimestres do ano 
+(primeiro trimestre vale 30 e o segundo e terceiro valem 35 cada). Ao final, mostrar qual a nota final do aluno no 
+ano. Dizer também se o aluno está aprovado (PASS) ou não (FAILED) e, em caso negativo, quantos pontos faltam para o aluno obter o mínimo para ser aprovado (que é 60% da nota). Você deve criar uma classe Student para resolver este problema.
+<p><strong>Exemplo:</strong></p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Notas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        pre {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Entrada:</th>
+        <th>Saída:</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>
+Alex Green
+27.00
+31.00
+32.00
+            </pre>
+        </td>
+        <td>
+            <pre>
+FINAL GRADE = 90.00
+PASS
+            </pre>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Notas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        pre {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Entrada:</th>
+        <th>Saída:</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>
+Alex Green
+17.00
+20.00
+15.00
+            </pre>
+        </td>
+        <td>
+            <pre>
+FINAL GRADE = 52.00
+FAILED
+MISSING 8.00 POINTS
+            </pre>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+</p>
+
 </details>
 
 </details>
