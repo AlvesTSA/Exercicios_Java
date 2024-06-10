@@ -2245,7 +2245,315 @@ Horas Trabalhadas: 3
 Total de horas trabalhadas: 3
 </pre>
 
+<p align = "justify">
+<strong> 13. </strong> Crie uma classe ItemEstoque com atributos para código, nome, quantidade e preço unitário. Implemente métodos para adicionar e remover itens do estoque. Adicione um membro estático para contar o número total de itens em estoque.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>ItemEstoque</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - codigo: int<br>
+            - nome: string<br>
+            - quantidade: int<br>
+            - preco_unitario: float<br>
+            - total_itens_estoque: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + adicionar_itens(quantidade: int): void<br>
+            + remover_itens(quantidade: int): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Item: <span style="color:red;">Notebook</span>
+Código: <span style="color:red;">1</span>
+Preço Unitário: <span style="color:red;">2000</span>
+Quantidade: <span style="color:red;">10</span>
+Total em Estoque: 10
 
+Adicionando <span style="color:red;">5</span> itens...
+Quantidade: 15
+Total em Estoque: 15
+
+Removendo <span style="color:red;">3</span> itens...
+Quantidade: 12
+Total em Estoque: 12
+</pre>
+
+<p align = "justify">
+<strong> 14. </strong> Crie uma classe Aluno com atributos para matrícula, nome, curso e notas. Implemente métodos para adicionar e remover notas, além de calcular a média das notas. Adicione um membro estático para contar o número total de alunos.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Aluno</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - matricula: int<br>
+            - nome: string<br>
+            - curso: string<br>
+            - notas: list<br>
+            - total_alunos: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + adicionar_nota(nota: float): void<br>
+            + remover_nota(nota: float): void<br>
+            + calcular_media(): float
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Aluno: <span style="color:red;">456</span>
+Nome: <span style="color:red;">Pedro</span>
+Curso: <span style="color:red;">Ciência da Computação</span>
+Notas: []
+
+Adicionando nota <span style="color:red;">8.5</span>...
+Notas: [8.5]
+
+Adicionando nota <span style="color:red;">9.0</span>...
+Notas: [8.5, 9.0]
+
+Removendo nota <span style="color:red;">8.5</span>...
+Notas: [9.0]
+
+Calculando média...
+Média: 9.0
+</pre>
+<p align = "justify">
+<strong> 15. </strong> Crie uma classe Veiculo com atributos para placa, modelo, ano e quilometragem. Implemente métodos para registrar quilometragem e calcular a idade do veículo. Adicione um membro estático para contar o número total de veículos registrados.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Veiculo</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - placa: string<br>
+            - modelo: string<br>
+            - ano: int<br>
+            - quilometragem: float<br>
+            - total_veiculos: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + registrar_quilometragem(km: float): void<br>
+            + calcular_idade(ano_atual: int): int
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Veículo: <span style="color:red;">ABC-1234</span>
+Modelo: <span style="color:red;">Sedan</span>
+Ano: <span style="color:red;">2015</span>
+Quilometragem: 50000
+
+Registrando <span style="color:red;">2000</span> km...
+Quilometragem: 52000
+
+Calculando idade em <span style="color:red;">2024</span>...
+Idade: 9 anos
+</pre>
+
+
+<p align = "justify">
+<strong> 16. </strong> Crie uma classe Projeto com atributos para código, nome, data de início e data de término. Implemente métodos para calcular a duração do projeto e verificar se está ativo. Adicione um membro estático para contar o número total de projetos.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Projeto</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - codigo: int<br>
+            - nome: string<br>
+            - data_inicio: string<br>
+            - data_termino: string<br>
+            - total_projetos: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + calcular_duracao(): int<br>
+            + verificar_ativo(data_atual: string): bool
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Projeto: <span style="color:red;">001</span>
+Nome: <span style="color:red;">Sistema de Vendas</span>
+Data Início: <span style="color:red;">2023-01-01</span>
+Data Término: <span style="color:red;">2023-12-31</span>
+
+Calculando duração...
+Duração: 365 dias
+
+Verificando se está ativo em <span style="color:red;">2024-06-10</span>...
+Ativo: Não
+</pre>
+
+<p align = "justify">
+<strong> 17. </strong>  Crie uma classe Pedido com atributos para número do pedido, data, valor total e status de pagamento. Implemente métodos para registrar pagamento e cancelar pedido. Adicione um membro estático para contar o número total de pedidos realizados.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Pedido</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - numero: int<br>
+            - data: string<br>
+            - valor_total: float<br>
+            - pago: bool<br>
+            - total_pedidos: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + registrar_pagamento(): void<br>
+            + cancelar_pedido(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Pedido: <span style="color:red;">1001</span>
+Data: <span style="color:red;">2024-06-10</span>
+Valor Total: <span style="color:red;">500.0</span>
+Status: Não Pago
+
+Registrando pagamento...
+Status: Pago
+Total de pedidos: 1
+
+Cancelando pedido...
+Pedido já pago, não pode ser cancelado
+</pre>
+
+<p align = "justify">
+<strong> 18. </strong>  Crie uma classe Tarefa com atributos para ID, descrição, data de conclusão e status de conclusão. Implemente métodos para concluir e reabrir tarefas. Adicione um membro estático para contar o número total de tarefas concluídas.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Tarefa</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - id: int<br>
+            - descricao: string<br>
+            - data_conclusao: string<br>
+            - concluida: bool<br>
+            - total_tarefas_concluidas: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + concluir(): void<br>
+            + reabrir(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Tarefa: <span style="color:red;">1</span>
+Descrição: <span style="color:red;">Finalizar relatório</span>
+Data Conclusão: <span style="color:red;">2024-06-10</span>
+Status: Não Concluída
+
+Concluindo tarefa...
+Status: Concluída
+Total de tarefas concluídas: 1
+
+Reabrindo tarefa...
+Status: Não Concluída
+Total de tarefas concluídas: 0
+</pre>
+
+<p align = "justify">
+<strong> 19. </strong>   Crie uma classe Compra com atributos para número da compra, data, valor total e status de entrega. Implemente métodos para registrar entrega e cancelar compra. Adicione um membro estático para contar o número total de compras realizadas.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Compra</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - numero: int<br>
+            - data: string<br>
+            - valor_total: float<br>
+            - entregue: bool<br>
+            - total_compras: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + registrar_entrega(): void<br>
+            + cancelar_compra(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Compra: <span style="color:red;">1001</span>
+Data: <span style="color:red;">2024-06-10</span>
+Valor Total: <span style="color:red;">150.0</span>
+Status: Não Entregue
+
+Registrando entrega...
+Status: Entregue
+Total de compras: 1
+
+Cancelando compra...
+Compra já entregue, não pode ser cancelada
+</pre>
+
+<p align = "justify">
+<strong> 20. </strong>    Crie uma classe Turma com atributos para código, nome, professor e número de alunos. Implemente métodos para adicionar e remover alunos. Adicione um membro estático para contar o número total de turmas.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Turma</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - codigo: int<br>
+            - nome: string<br>
+            - professor: string<br>
+            - numero_alunos: int<br>
+            - total_turmas: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + adicionar_aluno(): void<br>
+            + remover_aluno(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Turma: <span style="color:red;">101</span>
+Nome: <span style="color:red;">Matemática Avançada</span>
+Professor: <span style="color:red;">Dr. Silva</span>
+Número de Alunos: 30
+
+Adicionando aluno...
+Número de Alunos: 31
+
+Removendo aluno...
+Número de Alunos: 30
+</pre>
 
 </details>
 
