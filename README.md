@@ -2009,6 +2009,244 @@ MISSING 8.00 POINTS
 </table>
 </p>
 
+<p align = "justify">
+<strong> 6. </strong> Fazer um programa para ler um valor numérico qualquer, e daí mostrar quanto seria o valor de uma circunferência e do volume de uma esfera para um raio daquele valor. Informar também o valor de PI com duas casas decimais.
+
+<p><strong>Exemplo:</strong></p>
+  <pre>
+Enter radius: <span style="color: red;">3.0</span>
+Circumference: 18.85
+Volume: 113.10
+PI value: 3.14
+    </pre>
+</p>
+
+<p align = "justify">
+<strong> 7. </strong> Faça um programa para ler a cotação do dólar, e depois um valor em dólares a ser comprado por 
+uma pessoa em reais. Informar quantos reais a pessoa vai pagar pelos dólares, considerando ainda que a pessoa terá que pagar 6% de IOF sobre o valor em dólar. Criar uma classe CurrencyConverter para ser responsável pelos cálculos.
+<p><strong>Exemplo:</strong></p>
+  <pre>
+What is the dollar price? <span style="color: red;">3.10</span>
+How many dollars will be bought? <span style="color: red;">200.00</span>
+Amount to be paid in reais = 657.20
+    </pre>
+</p>
+
+<p align = "justify">
+<strong> 8. </strong>  Crie uma classe ContaBancaria com atributos para o número da conta, nome do titular e saldo. Implemente métodos para depósito, saque e consulta de saldo. Adicione um membro estático para a taxa de juros.
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>ContaBancaria</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - numero_conta: int<br>
+            - nome_titular: string<br>
+            - saldo: float<br>
+            - taxa_juros: float = 0.05
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + depositar(valor: float): void<br>
+            + sacar(valor: float): void<br>
+            + consultar_saldo(): float
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+&gt;&gt; Criando uma nova conta bancária
+Informe o número da conta:<span style="color:red;"> 123456</span>
+Informe o nome do titular:<span style="color:red;"> Maria Silva</span>
+Informe o saldo inicial:<span style="color:red;"> 1000.0</span>
+
+&gt;&gt; Conta criada com sucesso!
+Número da Conta: 123456
+Nome do Titular: Maria Silva
+Saldo Inicial: 1000.0
+Taxa de Juros: 0.05
+
+&gt;&gt; Realizando um depósito
+Informe o valor a ser depositado:<span style="color:red;"> 500.0</span>
+
+&gt;&gt; Depósito realizado com sucesso!
+Novo saldo: 1500.0
+
+&gt;&gt; Realizando um saque
+Informe o valor a ser sacado:<span style="color:red;"> 200.0</span>
+
+&gt;&gt; Saque realizado com sucesso!
+Novo saldo: 1300.0
+
+&gt;&gt; Consultando saldo
+Saldo atual: 1300.0
+
+&gt;&gt; Realizando um saque com valor superior ao saldo disponível
+Informe o valor a ser sacado:<span style="color:red;"> 1500.0</span>
+
+&gt;&gt; Erro: Saldo insuficiente!
+Saldo atual: 1300.0
+</pre>
+</p>
+
+
+<p align = "justify">
+<strong> 9. </strong> Crie uma classe Livro com atributos para título, autor, ano de publicação e status de empréstimo. Implemente métodos para emprestar e devolver o livro. Adicione um membro estático para contar o número total de empréstimos.
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Livro</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - titulo: string<br>
+            - autor: string<br>
+            - ano_publicacao: int<br>
+            - emprestado: bool<br>
+            - total_emprestimos: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + emprestar(): void<br>
+            + devolver(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Livro: <span style="color:red;">"1984"</span> de <span style="color:red;">George Orwell</span>
+Ano de Publicação: <span style="color:red;">1949</span>
+Status: Disponível
+
+Emprestando o livro...
+Status: Emprestado
+Total de empréstimos: 1
+
+Devolvendo o livro...
+Status: Disponível
+</pre>
+</p>
+
+<p align = "justify">
+<strong> 10. </strong> Crie uma classe QuartoHotel com atributos para número do quarto, tipo, preço por noite e status de reserva. Implemente métodos para reservar e liberar o quarto. Adicione um membro estático para contar o número total de reservas.
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>QuartoHotel</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - numero: int<br>
+            - tipo: string<br>
+            - preco_noite: float<br>
+            - reservado: bool<br>
+            - total_reservas: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + reservar(): void<br>
+            + liberar(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Quarto: <span style="color:red;">101</span>
+Tipo: <span style="color:red;">Deluxe</span>
+Preço por Noite: <span style="color:red;">200</span>
+Status: Disponível
+
+Reservando o quarto...
+Status: Reservado
+Total de reservas: 1
+
+Liberando o quarto...
+Status: Disponível
+</pre>
+</p>
+
+
+<p align = "justify">
+<strong> 11. </strong>  Crie uma classe Venda com atributos para código da venda, data, valor total e status de pagamento. Implemente métodos para registrar pagamento e cancelar venda. Adicione um membro estático para contar o número total de vendas realizadas.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Venda</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - codigo: int<br>
+            - data: string<br>
+            - valor_total: float<br>
+            - pago: bool<br>
+            - total_vendas: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + registrar_pagamento(): void<br>
+            + cancelar_venda(): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Venda: <span style="color:red;">1</span>
+Data: <span style="color:red;">2024-06-10</span>
+Valor Total: <span style="color:red;">1500</span>
+Status: Não Pago
+
+Registrando pagamento...
+Status: Pago
+Total de vendas: 1
+
+Cancelando venda...
+Venda já paga, não pode ser cancelada
+</pre>
+
+
+<p align = "justify">
+<strong> 12. </strong> Crie uma classe Funcionario com atributos para matrícula, nome, cargo e horas trabalhadas. Implemente métodos para registrar entrada e saída do funcionário. Adicione um membro estático para contar o total de horas trabalhadas por todos os funcionários.
+</p>
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <td colspan="2" align="center"><b>Funcionario</b></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            - matricula: int<br>
+            - nome: string<br>
+            - cargo: string<br>
+            - horas_trabalhadas: int<br>
+            - total_horas_trabalhadas: int = 0
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            + registrar_entrada(horas: int): void<br>
+            + registrar_saida(horas: int): void
+        </td>
+    </tr>
+</table>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Funcionário: <span style="color:red;">123</span>
+Nome: <span style="color:red;">Ana</span>
+Cargo: <span style="color:red;">Desenvolvedora</span>
+Horas Trabalhadas: 0
+
+Registrando entrada de <span style="color:red;">8</span> horas...
+Horas Trabalhadas: 8
+Total de horas trabalhadas: 8
+
+Registrando saída de <span style="color:red;">5</span> horas...
+Horas Trabalhadas: 3
+Total de horas trabalhadas: 3
+</pre>
+
+
+
 </details>
 
 </details>
