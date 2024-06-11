@@ -1799,7 +1799,7 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 
 <details>
 <summary align = "center">
-<h3 align = "center">Classes, atributos, métodos, membros estáticos</h3>
+<h3 align = "center">Classes, atributos, métodos, membros estáticos e membros instanciáveis</h3>
 </summary>
 
 <p align = "justify">
