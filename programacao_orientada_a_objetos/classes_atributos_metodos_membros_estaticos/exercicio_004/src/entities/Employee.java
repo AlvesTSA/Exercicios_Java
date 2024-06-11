@@ -13,7 +13,7 @@ public class Employee {
 
     public void increaseSalary(double percentage){
 
-        grossSalary += (percentage / 100) *grossSalary;
+        grossSalary += (percentage / 100.0) *grossSalary;
     }
 
     public String toString(){
