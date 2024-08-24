@@ -2557,4 +2557,1502 @@ Número de Alunos: 30
 
 </details>
 
+<details>
+<summary align = "center">
+<h3 align = "center">Construtores, sobrecarga e encapsulamento</h3>
+</summary>
+
+<p align="justify">
+<strong> 1. </strong> Fazer um programa para ler os dados de uma pessoa (nome e idade). Em seguida:
+ <li>Mostrar os dados da pessoa (nome e idade).</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Pessoa</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Idade : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pessoa(nome : string, idade : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetIdade() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ExibirDados() : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Digite os dados da pessoa:
+Nome: <span class="highlight">João</span>
+Idade: <span class="highlight">30</span>
+
+Dados da pessoa: Nome: João, Idade: 30
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 2. </strong> Crie uma classe Produto com os atributos nome, preço e quantidade. Em seguida:
+ <li>Implemente dois construtores: um que inicialize todos os atributos e outro que inicialize apenas nome e preço, atribuindo um valor padrão para quantidade.</li>
+<li>Encapsule todos os atributos, garantindo que eles só possam ser acessados através de métodos getters e setters.</li>
+<li>Permita que o usuário crie um produto utilizando ambos os construtores e exiba os detalhes do produto.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Produto</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Preço : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Quantidade : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Produto(nome : string, preço : double, quantidade : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Produto(nome : string, preço : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPreço() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetQuantidade() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPreço(preço : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetQuantidade(quantidade : int) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Produto 1:
+Nome: <span class="highlight">Notebook</span>
+Preço: <span class="highlight">3000.00</span>
+Quantidade: <span class="highlight">10</span>
+
+Produto 2:
+Nome: <span class="highlight">Smartphone</span>
+Preço: <span class="highlight">1500.00</span>
+Quantidade: <span class="highlight">5 (valor padrão)</span>
+
+Dados dos produtos:
+Produto 1: Notebook, $ 3000.00, 10 unidades
+Produto 2: Smartphone, $ 1500.00, 5 unidades
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 3. </strong> Crie uma classe <strong>Carro</strong> com os atributos <em>marca</em>, <em>modelo</em> e <em>ano</em>. Em seguida:
+ <li>Implemente dois construtores: um que inicialize todos os atributos e outro que inicialize apenas <em>marca</em> e <em>modelo</em>, atribuindo o valor padrão 2024 para <em>ano</em>.</li>
+<li>Encapsule todos os atributos, garantindo que eles só possam ser acessados através de métodos getters e setters.</li>
+<li>Permita que o usuário crie um carro utilizando ambos os construtores e exiba os detalhes do carro.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Carro</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Marca : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Modelo : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Ano : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Carro(marca : string, modelo : string, ano : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Carro(marca : string, modelo : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetMarca() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetModelo() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetAno() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetMarca(marca : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetModelo(modelo : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetAno(ano : int) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Carro 1:
+Marca: <span class="highlight">Toyota</span>
+Modelo: <span class="highlight">Corolla</span>
+Ano: <span class="highlight">2022</span>
+
+Carro 2:
+Marca: <span class="highlight">Honda</span>
+Modelo: <span class="highlight">Civic</span>
+Ano: <span class="highlight">2024 (valor padrão)</span>
+
+Dados dos carros:
+Carro 1: Toyota, Corolla, Ano: 2022
+Carro 2: Honda, Civic, Ano: 2024
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 4. </strong> Crie uma classe <strong>ContaBancaria</strong> com os atributos <em>titular</em>, <em>saldo</em> e <em>limite</em>. Em seguida:
+ <li>Implemente um construtor que inicialize todos os atributos, garantindo que o saldo inicial não seja negativo.</li>
+<li>Encapsule todos os atributos, permitindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Crie métodos para depositar e sacar dinheiro, respeitando o limite da conta.</li>
+<li>Permita que o usuário crie uma conta bancária, realize operações de depósito e saque, e exiba os detalhes atualizados da conta.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">ContaBancaria</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Titular : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Saldo : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Limite : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ContaBancaria(titular : string, saldo : double, limite : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetTitular() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetSaldo() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetLimite() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetTitular(titular : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetSaldo(saldo : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetLimite(limite : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Depositar(valor : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Sacar(valor : double) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Conta 1:
+Titular: <span class="highlight">Maria Silva</span>
+Saldo: <span class="highlight">1000.00</span>
+Limite: <span class="highlight">2000.00</span>
+
+Depósito: <span class="highlight">500.00</span>
+Novo Saldo: <span class="highlight">1500.00</span>
+
+Saque: <span class="highlight">300.00</span>
+Novo Saldo: <span class="highlight">1200.00</span>
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 5. </strong> Crie uma classe <strong>Calculadora</strong> com um método <em>soma</em>. Em seguida:
+ <li>Implemente o método <em>soma</em> para aceitar dois parâmetros inteiros e retornar a soma deles.</li>
+<li>Sobrecargue o método <em>soma</em> para aceitar três parâmetros inteiros.</li>
+<li>Sobrecargue o método <em>soma</em> para aceitar dois parâmetros do tipo <em>double</em>.</li>
+<li>Encapsule um atributo privado que armazene o resultado da soma e crie métodos getter para acessá-lo.</li>
+<li>Permita que o usuário utilize a calculadora para realizar somas com diferentes tipos e números de parâmetros, exibindo os resultados.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Calculadora</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Resultado : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Soma(a : int, b : int) : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Soma(a : int, b : int, c : int) : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Soma(a : double, b : double) : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetResultado() : double</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Soma de dois inteiros:
+Entrada: 5, 10
+Resultado: <span class="highlight">15</span>
+
+Soma de três inteiros:
+Entrada: 2, 3, 4
+Resultado: <span class="highlight">9</span>
+
+Soma de dois doubles:
+Entrada: 2.5, 3.7
+Resultado: <span class="highlight">6.2</span>
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 6. </strong> Crie uma classe <strong>Funcionario</strong> com os atributos <em>nome</em>, <em>cargo</em> e <em>salario</em>. Em seguida:
+ <li>Implemente três construtores sobrecarregados: um que inicialize todos os atributos, um que inicialize apenas <em>nome</em> e <em>cargo</em>, e outro que inicialize apenas o <em>nome</em>.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Crie um método para ajustar o salário do funcionário.</li>
+<li>Permita que o usuário crie instâncias de funcionários utilizando diferentes construtores e ajuste o salário conforme necessário, exibindo os detalhes do funcionário.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Funcionario</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Cargo : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Salario : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Funcionario(nome : string, cargo : string, salario : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Funcionario(nome : string, cargo : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Funcionario(nome : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetCargo() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetSalario() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetCargo(cargo : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetSalario(salario : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ AjustarSalario(percentual : double) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Funcionario 1:
+Nome: <span class="highlight">Carlos</span>
+Cargo: <span class="highlight">Analista</span>
+Salario: <span class="highlight">5000.00</span>
+
+Funcionario 2:
+Nome: <span class="highlight">Ana</span>
+Cargo: <span class="highlight">Desenvolvedora</span>
+Salario: <span class="highlight">7000.00</span>
+
+Ajuste de Salario:
+Funcionario 1 - Novo Salario: <span class="highlight">5500.00</span> (10% de aumento)
+Funcionario 2 - Novo Salario: <span class="highlight">7350.00</span> (5% de aumento)
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 7. </strong> Crie uma classe <strong>Livro</strong> com os atributos <em>titulo</em>, <em>autor</em> e <em>preco</em>. Em seguida:
+ <li>Implemente três construtores sobrecarregados: um que inicialize todos os atributos, um que inicialize apenas <em>titulo</em> e <em>autor</em>, e outro que inicialize apenas o <em>titulo</em>.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de livros utilizando diferentes construtores e exiba os detalhes do livro.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Livro</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Titulo : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Autor : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Preco : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Livro(titulo : string, autor : string, preco : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Livro(titulo : string, autor : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Livro(titulo : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetTitulo() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetAutor() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPreco() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetTitulo(titulo : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetAutor(autor : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPreco(preco : double) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Livro 1:
+Titulo: <span class="highlight">O Senhor dos Anéis</span>
+Autor: <span class="highlight">J.R.R. Tolkien</span>
+Preco: <span class="highlight">50.00</span>
+
+Livro 2:
+Titulo: <span class="highlight">1984</span>
+Autor: <span class="highlight">George Orwell</span>
+Preco: <span class="highlight">40.00</span>
+
+Livro 3:
+Titulo: <span class="highlight">Dom Quixote</span>
+Autor: <span class="highlight">Desconhecido</span> (não informado)
+Preco: <span class="highlight">0.00</span> (não informado)
+
+Dados dos livros:
+Livro 1: Titulo: O Senhor dos Anéis, Autor: J.R.R. Tolkien, Preco: 50.00
+Livro 2: Titulo: 1984, Autor: George Orwell, Preco: 40.00
+Livro 3: Titulo: Dom Quixote, Autor: Desconhecido, Preco: 0.00
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 8. </strong> Crie uma classe <strong>Veiculo</strong> com os atributos <em>marca</em>, <em>modelo</em>, <em>ano</em> e <em>preco</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos. Garanta que o preço seja sempre um valor positivo.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de veículos utilizando diferentes construtores e exiba os detalhes do veículo.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Veiculo</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Marca : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Modelo : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Ano : int</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Preco : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Veiculo(marca : string, modelo : string, ano : int, preco : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Veiculo(marca : string, modelo : string, ano : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Veiculo(marca : string, modelo : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetMarca() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetModelo() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetAno() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPreco() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetMarca(marca : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetModelo(modelo : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetAno(ano : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPreco(preco : double) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Veiculo 1:
+Marca: <span class="highlight">Ford</span>
+Modelo: <span class="highlight">Fusion</span>
+Ano: <span class="highlight">2020</span>
+Preco: <span class="highlight">120000.00</span>
+
+Veiculo 2:
+Marca: <span class="highlight">Chevrolet</span>
+Modelo: <span class="highlight">Onix</span>
+Ano: <span class="highlight">2022</span>
+Preco: <span class="highlight">75000.00</span>
+
+Veiculo 3:
+Marca: <span class="highlight">Toyota</span>
+Modelo: <span class="highlight">Corolla</span>
+Ano: <span class="highlight">2024 (valor padrão)</span>
+Preco: <span class="highlight">130000.00</span>
+
+Dados dos veículos:
+Veiculo 1: Marca: Ford, Modelo: Fusion, Ano: 2020, Preco: 120000.00
+Veiculo 2: Marca: Chevrolet, Modelo: Onix, Ano: 2022, Preco: 75000.00
+Veiculo 3: Marca: Toyota, Modelo: Corolla, Ano: 2024, Preco: 130000.00
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 9. </strong> Crie uma classe <strong>Cliente</strong> com os atributos <em>nome</em> e <em>idade</em>. Em seguida:
+ <li>Implemente métodos sobrecarregados para definir a idade do cliente, aceitando diferentes tipos de dados (por exemplo, <em>int</em> e <em>String</em>).</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário defina a idade do cliente utilizando diferentes tipos de dados e exiba os detalhes do cliente.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Cliente</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Idade : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Cliente(nome : string, idade : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetIdade() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetIdade(idade : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetIdade(idade : string) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Cliente 1:
+Nome: <span class="highlight">Joana</span>
+Idade: <span class="highlight">30</span> (definido como int)
+
+Cliente 2:
+Nome: <span class="highlight">Carlos</span>
+Idade: <span class="highlight">quarenta e cinco</span> (definido como String)
+
+Dados dos clientes:
+Cliente 1: Nome: Joana, Idade: 30
+Cliente 2: Nome: Carlos, Idade: quarenta e cinco
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 10. </strong> Crie uma classe <strong>Pedido</strong> com os atributos <em>numero</em>, <em>valor</em> e <em>data</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos, garantindo que o valor do pedido não seja negativo.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de pedidos utilizando diferentes construtores e exiba os detalhes do pedido.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Pedido</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Numero : int</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Valor : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Data : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pedido(numero : int, valor : double, data : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pedido(numero : int, valor : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pedido(numero : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNumero() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetValor() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetData() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNumero(numero : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetValor(valor : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetData(data : string) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Pedido 1:
+Numero: <span class="highlight">101</span>
+Valor: <span class="highlight">250.00</span>
+Data: <span class="highlight">01/09/2024</span>
+
+Pedido 2:
+Numero: <span class="highlight">102</span>
+Valor: <span class="highlight">150.00</span>
+Data: <span class="highlight">02/09/2024</span>
+
+Pedido 3:
+Numero: <span class="highlight">103</span>
+Valor: <span class="highlight">300.00</span> (Data não informada)
+
+Dados dos pedidos:
+Pedido 1: Numero: 101, Valor: 250.00, Data: 01/09/2024
+Pedido 2: Numero: 102, Valor: 150.00, Data: 02/09/2024
+Pedido 3: Numero: 103, Valor: 300.00, Data: Não informada
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 11. </strong> Crie uma classe <strong>ProdutoPerecivel</strong> com os atributos <em>nome</em>, <em>preco</em>, <em>dataValidade</em> e <em>estoque</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes conjuntos de atributos. Garanta que a <em>dataValidade</em> seja uma data futura e que o <em>estoque</em> seja um valor positivo.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de produtos perecíveis utilizando diferentes construtores e exiba os detalhes do produto.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">ProdutoPerecivel</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Preco : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataValidade : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Estoque : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoPerecivel(nome : string, preco : double, dataValidade : string, estoque : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoPerecivel(nome : string, preco : double, dataValidade : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoPerecivel(nome : string, preco : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPreco() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataValidade() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetEstoque() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPreco(preco : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataValidade(dataValidade : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetEstoque(estoque : int) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Produto 1:
+Nome: <span class="highlight">Iogurte</span>
+Preco: <span class="highlight">5.00</span>
+Data de Validade: <span class="highlight">15/09/2024</span>
+Estoque: <span class="highlight">100</span>
+
+Produto 2:
+Nome: <span class="highlight">Leite</span>
+Preco: <span class="highlight">3.00</span>
+Data de Validade: <span class="highlight">10/09/2024</span>
+Estoque: <span class="highlight">50</span>
+
+Produto 3:
+Nome: <span class="highlight">Pão</span>
+Preco: <span class="highlight">1.50</span> (Data de Validade e Estoque não informados)
+
+Dados dos produtos:
+Produto 1: Nome: Iogurte, Preco: 5.00, Data de Validade: 15/09/2024, Estoque: 100
+Produto 2: Nome: Leite, Preco: 3.00, Data de Validade: 10/09/2024, Estoque: 50
+Produto 3: Nome: Pão, Preco: 1.50, Data de Validade: Não informado, Estoque: Não informado
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 12. </strong> Crie uma classe <strong>ReservaHotel</strong> com os atributos <em>numeroQuarto</em>, <em>dataEntrada</em>, <em>dataSaida</em> e <em>precoDiaria</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos. Garanta que as datas sejam válidas e que o preço da diária seja positivo.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de reservas utilizando diferentes construtores e exiba os detalhes da reserva.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">ReservaHotel</th>
+        </tr>
+        <tr class="attributes">
+            <td>- NumeroQuarto : int</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataEntrada : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataSaida : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- PrecoDiaria : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ReservaHotel(numeroQuarto : int, dataEntrada : string, dataSaida : string, precoDiaria : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ReservaHotel(numeroQuarto : int, dataEntrada : string, precoDiaria : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ReservaHotel(numeroQuarto : int, precoDiaria : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNumeroQuarto() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataEntrada() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataSaida() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPrecoDiaria() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNumeroQuarto(numeroQuarto : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataEntrada(dataEntrada : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataSaida(dataSaida : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPrecoDiaria(precoDiaria : double) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Reserva 1:
+Numero do Quarto: <span class="highlight">101</span>
+Data de Entrada: <span class="highlight">15/09/2024</span>
+Data de Saida: <span class="highlight">20/09/2024</span>
+Preco da Diaria: <span class="highlight">200.00</span>
+
+Reserva 2:
+Numero do Quarto: <span class="highlight">102</span>
+Data de Entrada: <span class="highlight">17/09/2024</span>
+Preco da Diaria: <span class="highlight">180.00</span>
+
+Reserva 3:
+Numero do Quarto: <span class="highlight">103</span>
+Preco da Diaria: <span class="highlight">150.00</span> (Datas não informadas)
+
+Dados das reservas:
+Reserva 1: Numero do Quarto: 101, Data de Entrada: 15/09/2024, Data de Saida: 20/09/2024, Preco da Diaria: 200.00
+Reserva 2: Numero do Quarto: 102, Data de Entrada: 17/09/2024, Data de Saida: Não informada, Preco da Diaria: 180.00
+Reserva 3: Numero do Quarto: 103, Data de Entrada: Não informada, Data de Saida: Não informada, Preco da Diaria: 150.00
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 13. </strong> Crie uma classe <strong>Contrato</strong> com os atributos <em>numeroContrato</em>, <em>valorContrato</em> e <em>dataAssinatura</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Adicione métodos para ajustar o valor do contrato e verificar se o contrato está ativo (considerando a data atual em relação à data de assinatura).</li>
+<li>Permita que o usuário crie instâncias de contratos utilizando diferentes construtores, ajuste o valor do contrato e verifique o status do contrato, exibindo os detalhes do contrato.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Contrato</th>
+        </tr>
+        <tr class="attributes">
+            <td>- NumeroContrato : int</td>
+        </tr>
+        <tr class="attributes">
+            <td>- ValorContrato : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataAssinatura : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Contrato(numeroContrato : int, valorContrato : double, dataAssinatura : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Contrato(numeroContrato : int, valorContrato : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Contrato(numeroContrato : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNumeroContrato() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetValorContrato() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataAssinatura() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNumeroContrato(numeroContrato : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetValorContrato(valorContrato : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataAssinatura(dataAssinatura : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ AjustarValorContrato(novoValor : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ VerificarStatusContrato() : boolean</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Contrato 1:
+Numero do Contrato: <span class="highlight">1001</span>
+Valor do Contrato: <span class="highlight">50000.00</span>
+Data de Assinatura: <span class="highlight">01/01/2024</span>
+
+Contrato 2:
+Numero do Contrato: <span class="highlight">1002</span>
+Valor do Contrato: <span class="highlight">75000.00</span>
+Data de Assinatura: <span class="highlight">15/02/2024</span>
+
+Ajuste de Valor:
+Contrato 1 - Novo Valor: <span class="highlight">55000.00</span>
+
+Verificação de Status:
+Contrato 1 - Status: <span class="highlight">Ativo</span>
+Contrato 2 - Status: <span class="highlight">Ativo</span>
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 14. </strong> Crie uma classe <strong>Evento</strong> com os atributos <em>nome</em>, <em>local</em>, <em>data</em> e <em>numeroParticipantes</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos. Garanta que a <em>data</em> não seja uma data passada e que o <em>numeroParticipantes</em> seja um valor positivo.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de eventos utilizando diferentes construtores e exiba os detalhes do evento.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Evento</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Local : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Data : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- NumeroParticipantes : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Evento(nome : string, local : string, data : string, numeroParticipantes : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Evento(nome : string, local : string, data : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Evento(nome : string, local : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetLocal() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetData() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNumeroParticipantes() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetLocal(local : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetData(data : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNumeroParticipantes(numeroParticipantes : int) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Evento 1:
+Nome: <span class="highlight">Conferência de Tecnologia</span>
+Local: <span class="highlight">Centro de Convenções</span>
+Data: <span class="highlight">15/10/2024</span>
+Número de Participantes: <span class="highlight">500</span>
+
+Evento 2:
+Nome: <span class="highlight">Show de Música</span>
+Local: <span class="highlight">Estádio Municipal</span>
+Data: <span class="highlight">22/11/2024</span>
+
+Evento 3:
+Nome: <span class="highlight">Feira de Livros</span>
+Local: <span class="highlight">Parque Central</span>
+Data: <span class="highlight">25/09/2024</span> (Número de Participantes não informado)
+
+Dados dos eventos:
+Evento 1: Nome: Conferência de Tecnologia, Local: Centro de Convenções, Data: 15/10/2024, Número de Participantes: 500
+Evento 2: Nome: Show de Música, Local: Estádio Municipal, Data: 22/11/2024, Número de Participantes: Não informado
+Evento 3: Nome: Feira de Livros, Local: Parque Central, Data: 25/09/2024, Número de Participantes: Não informado
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 15. </strong> Crie uma classe <strong>Pagamento</strong> com os atributos <em>valor</em>, <em>dataPagamento</em> e <em>tipoPagamento</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos, garantindo que o <em>valor</em> seja positivo.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de pagamentos utilizando diferentes construtores e exiba os detalhes do pagamento.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">Pagamento</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Valor : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataPagamento : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- TipoPagamento : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pagamento(valor : double, dataPagamento : string, tipoPagamento : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pagamento(valor : double, dataPagamento : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ Pagamento(valor : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetValor() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataPagamento() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetTipoPagamento() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetValor(valor : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataPagamento(dataPagamento : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetTipoPagamento(tipoPagamento : string) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Pagamento 1:
+Valor: <span class="highlight">500.00</span>
+Data de Pagamento: <span class="highlight">10/09/2024</span>
+Tipo de Pagamento: <span class="highlight">Crédito</span>
+
+Pagamento 2:
+Valor: <span class="highlight">200.00</span>
+Data de Pagamento: <span class="highlight">05/09/2024</span>
+
+Pagamento 3:
+Valor: <span class="highlight">150.00</span> (Data e Tipo de Pagamento não informados)
+
+Dados dos pagamentos:
+Pagamento 1: Valor: 500.00, Data de Pagamento: 10/09/2024, Tipo de Pagamento: Crédito
+Pagamento 2: Valor: 200.00, Data de Pagamento: 05/09/2024, Tipo de Pagamento: Não informado
+Pagamento 3: Valor: 150.00, Data de Pagamento: Não informado, Tipo de Pagamento: Não informado
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 16. </strong> Crie uma classe <strong>TransacaoBancaria</strong> com os atributos <em>numeroTransacao</em>, <em>valor</em>, <em>tipoTransacao</em> e <em>dataTransacao</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos, garantindo que o <em>valor</em> seja positivo e que a <em>dataTransacao</em> seja válida.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Crie métodos para processar a transação e exibir os detalhes da transação.</li>
+<li>Permita que o usuário crie instâncias de transações bancárias utilizando diferentes construtores e exiba os detalhes da transação.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">TransacaoBancaria</th>
+        </tr>
+        <tr class="attributes">
+            <td>- NumeroTransacao : int</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Valor : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- TipoTransacao : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataTransacao : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ TransacaoBancaria(numeroTransacao : int, valor : double, tipoTransacao : string, dataTransacao : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ TransacaoBancaria(numeroTransacao : int, valor : double, tipoTransacao : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ TransacaoBancaria(numeroTransacao : int, valor : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNumeroTransacao() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetValor() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetTipoTransacao() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataTransacao() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNumeroTransacao(numeroTransacao : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetValor(valor : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetTipoTransacao(tipoTransacao : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataTransacao(dataTransacao : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProcessarTransacao() : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Transação 1:
+Numero da Transação: <span class="highlight">12345</span>
+Valor: <span class="highlight">1000.00</span>
+Tipo de Transação: <span class="highlight">Depósito</span>
+Data da Transação: <span class="highlight">01/09/2024</span>
+
+Transação 2:
+Numero da Transação: <span class="highlight">12346</span>
+Valor: <span class="highlight">500.00</span>
+Tipo de Transação: <span class="highlight">Saque</span>
+Data da Transação: <span class="highlight">02/09/2024</span>
+
+Transação 3:
+Numero da Transação: <span class="highlight">12347</span>
+Valor: <span class="highlight">300.00</span> (Tipo de Transação e Data não informados)
+
+Dados das transações:
+Transação 1: Numero: 12345, Valor: 1000.00, Tipo: Depósito, Data: 01/09/2024
+Transação 2: Numero: 12346, Valor: 500.00, Tipo: Saque, Data: 02/09/2024
+Transação 3: Numero: 12347, Valor: 300.00, Tipo: Não informado, Data: Não informado
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 17. </strong> Crie uma classe <strong>ProdutoDigital</strong> com os atributos <em>nome</em>, <em>preco</em>, <em>tamanhoArquivo</em> e <em>formato</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes conjuntos de atributos, garantindo que o <em>tamanhoArquivo</em> e o <em>preco</em> sejam valores positivos.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de produtos digitais utilizando diferentes construtores e exiba os detalhes do produto.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">ProdutoDigital</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Preco : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- TamanhoArquivo : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Formato : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoDigital(nome : string, preco : double, tamanhoArquivo : double, formato : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoDigital(nome : string, preco : double, tamanhoArquivo : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoDigital(nome : string, preco : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPreco() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetTamanhoArquivo() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetFormato() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPreco(preco : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetTamanhoArquivo(tamanhoArquivo : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetFormato(formato : string) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Produto Digital 1:
+Nome: <span class="highlight">E-book Python Avançado</span>
+Preco: <span class="highlight">50.00</span>
+Tamanho do Arquivo: <span class="highlight">15.5 MB</span>
+Formato: <span class="highlight">PDF</span>
+
+Produto Digital 2:
+Nome: <span class="highlight">Curso Java Completo</span>
+Preco: <span class="highlight">120.00</span>
+Tamanho do Arquivo: <span class="highlight">2.5 GB</span> (Formato não informado)
+
+Produto Digital 3:
+Nome: <span class="highlight">Música MP3</span>
+Preco: <span class="highlight">1.50</span> (Tamanho do Arquivo e Formato não informados)
+
+Dados dos produtos digitais:
+Produto 1: Nome: E-book Python Avançado, Preco: 50.00, Tamanho do Arquivo: 15.5 MB, Formato: PDF
+Produto 2: Nome: Curso Java Completo, Preco: 120.00, Tamanho do Arquivo: 2.5 GB, Formato: Não informado
+Produto 3: Nome: Música MP3, Preco: 1.50, Tamanho do Arquivo: Não informado, Formato: Não informado
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 18. </strong> Crie uma classe <strong>PlanoDeSaude</strong> com os atributos <em>nomePlano</em>, <em>cobertura</em>, <em>valorMensal</em> e <em>idadeMinima</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos, garantindo que o <em>valorMensal</em> seja positivo e que a <em>idadeMinima</em> esteja dentro de uma faixa permitida.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Permita que o usuário crie instâncias de planos de saúde utilizando diferentes construtores e exiba os detalhes do plano.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">PlanoDeSaude</th>
+        </tr>
+        <tr class="attributes">
+            <td>- NomePlano : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Cobertura : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- ValorMensal : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- IdadeMinima : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ PlanoDeSaude(nomePlano : string, cobertura : string, valorMensal : double, idadeMinima : int)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ PlanoDeSaude(nomePlano : string, cobertura : string, valorMensal : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ PlanoDeSaude(nomePlano : string, valorMensal : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNomePlano() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetCobertura() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetValorMensal() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetIdadeMinima() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNomePlano(nomePlano : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetCobertura(cobertura : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetValorMensal(valorMensal : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetIdadeMinima(idadeMinima : int) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Plano de Saúde 1:
+Nome do Plano: <span class="highlight">Plano Ouro</span>
+Cobertura: <span class="highlight">Completa</span>
+Valor Mensal: <span class="highlight">500.00</span>
+Idade Mínima: <span class="highlight">18</span>
+
+Plano de Saúde 2:
+Nome do Plano: <span class="highlight">Plano Prata</span>
+Cobertura: <span class="highlight">Básica</span>
+Valor Mensal: <span class="highlight">300.00</span> (Idade Mínima não informada)
+
+Plano de Saúde 3:
+Nome do Plano: <span class="highlight">Plano Bronze</span>
+Valor Mensal: <span class="highlight">200.00</span> (Cobertura e Idade Mínima não informadas)
+
+Dados dos planos de saúde:
+Plano 1: Nome: Plano Ouro, Cobertura: Completa, Valor Mensal: 500.00, Idade Mínima: 18
+Plano 2: Nome: Plano Prata, Cobertura: Básica, Valor Mensal: 300.00, Idade Mínima: Não informada
+Plano 3: Nome: Plano Bronze, Cobertura: Não informada, Valor Mensal: 200.00, Idade Mínima: Não informada
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 19. </strong> Crie uma classe <strong>ProdutoImportado</strong> com os atributos <em>nome</em>, <em>preco</em>, <em>paisOrigem</em> e <em>taxaImportacao</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos, garantindo que a <em>taxaImportacao</em> e o <em>preco</em> sejam valores positivos.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Adicione um método para calcular o preço final do produto, considerando a taxa de importação.</li>
+<li>Permita que o usuário crie instâncias de produtos importados utilizando diferentes construtores e exiba os detalhes do produto, incluindo o preço final.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">ProdutoImportado</th>
+        </tr>
+        <tr class="attributes">
+            <td>- Nome : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Preco : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- PaisOrigem : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- TaxaImportacao : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoImportado(nome : string, preco : double, paisOrigem : string, taxaImportacao : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoImportado(nome : string, preco : double, paisOrigem : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ ProdutoImportado(nome : string, preco : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNome() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPreco() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetPaisOrigem() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetTaxaImportacao() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNome(nome : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPreco(preco : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetPaisOrigem(paisOrigem : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetTaxaImportacao(taxaImportacao : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ CalcularPrecoFinal() : double</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Produto Importado 1:
+Nome: <span class="highlight">Relógio Suíço</span>
+Preco: <span class="highlight">1000.00</span>
+País de Origem: <span class="highlight">Suíça</span>
+Taxa de Importação: <span class="highlight">200.00</span>
+Preço Final: <span class="highlight">1200.00</span>
+
+Produto Importado 2:
+Nome: <span class="highlight">Câmera Japonesa</span>
+Preco: <span class="highlight">500.00</span>
+País de Origem: <span class="highlight">Japão</span>
+Taxa de Importação: <span class="highlight">100.00</span>
+Preço Final: <span class="highlight">600.00</span>
+
+Produto Importado 3:
+Nome: <span class="highlight">Vinho Francês</span>
+Preco: <span class="highlight">150.00</span> (País de Origem e Taxa de Importação não informados)
+Preço Final: <span class="highlight">150.00</span>
+
+Dados dos produtos importados:
+Produto 1: Nome: Relógio Suíço, Preco: 1000.00, País de Origem: Suíça, Taxa de Importação: 200.00, Preço Final: 1200.00
+Produto 2: Nome: Câmera Japonesa, Preco: 500.00, País de Origem: Japão, Taxa de Importação: 100.00, Preço Final: 600.00
+Produto 3: Nome: Vinho Francês, Preco: 150.00, País de Origem: Não informado, Taxa de Importação: Não informada, Preço Final: 150.00
+</pre>
+</p>
+
+
+<p align="justify">
+<strong> 20. </strong> Crie uma classe <strong>OrdemServico</strong> com os atributos <em>numeroOrdem</em>, <em>descricao</em>, <em>valorServico</em> e <em>dataConclusao</em>. Em seguida:
+ <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos, garantindo que o <em>valorServico</em> seja positivo e que a <em>dataConclusao</em> seja uma data válida.</li>
+<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
+<li>Adicione métodos para modificar a descrição do serviço e alterar a data de conclusão.</li>
+<li>Permita que o usuário crie instâncias de ordens de serviço utilizando diferentes construtores e exiba os detalhes da ordem, incluindo o valor final.</li>
+Para resolver este problema, você deve criar
+uma CLASSE conforme projeto abaixo:
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th colspan="2">OrdemServico</th>
+        </tr>
+        <tr class="attributes">
+            <td>- NumeroOrdem : int</td>
+        </tr>
+        <tr class="attributes">
+            <td>- Descricao : string</td>
+        </tr>
+        <tr class="attributes">
+            <td>- ValorServico : double</td>
+        </tr>
+        <tr class="attributes">
+            <td>- DataConclusao : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ OrdemServico(numeroOrdem : int, descricao : string, valorServico : double, dataConclusao : string)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ OrdemServico(numeroOrdem : int, descricao : string, valorServico : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ OrdemServico(numeroOrdem : int, valorServico : double)</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetNumeroOrdem() : int</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDescricao() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetValorServico() : double</td>
+        </tr>
+        <tr class="methods">
+            <td>+ GetDataConclusao() : string</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetNumeroOrdem(numeroOrdem : int) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDescricao(descricao : string) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetValorServico(valorServico : double) : void</td>
+        </tr>
+        <tr class="methods">
+            <td>+ SetDataConclusao(dataConclusao : string) : void</td>
+        </tr>
+    </table>
+</body>
+<p><strong>Exemplo:</strong></p>
+<pre>
+Ordem de Serviço 1:
+Número da Ordem: <span class="highlight">1001</span>
+Descrição: <span class="highlight">Manutenção do sistema de aquecimento</span>
+Valor do Serviço: <span class="highlight">250.00</span>
+Data de Conclusão: <span class="highlight">01/10/2024</span>
+
+Ordem de Serviço 2:
+Número da Ordem: <span class="highlight">1002</span>
+Descrição: <span class="highlight">Instalação de câmeras de segurança</span>
+Valor do Serviço: <span class="highlight">450.00</span> (Data de Conclusão não informada)
+
+Ordem de Serviço 3:
+Número da Ordem: <span class="highlight">1003</span>
+Valor do Serviço: <span class="highlight">150.00</span> (Descrição e Data de Conclusão não informadas)
+
+Dados das ordens de serviço:
+Ordem 1: Número: 1001, Descrição: Manutenção do sistema de aquecimento, Valor: 250.00, Data de Conclusão: 01/10/2024
+Ordem 2: Número: 1002, Descrição: Instalação de câmeras de segurança, Valor: 450.00, Data de Conclusão: Não informada
+Ordem 3: Número: 1003, Descrição: Não informada, Valor: 150.00, Data de Conclusão: Não informada
+</pre>
+</p>
+
+</details>
+
+
 </details>
