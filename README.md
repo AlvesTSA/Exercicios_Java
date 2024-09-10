@@ -2924,77 +2924,66 @@ Funcionario 2 - Novo Salario: <span class="highlight">7350.00</span> (5% de aume
 
 
 <p align="justify">
-<strong> 7. </strong> Crie uma classe <strong>Livro</strong> com os atributos <em>titulo</em>, <em>autor</em> e <em>preco</em>. Em seguida:
- <li>Implemente três construtores sobrecarregados: um que inicialize todos os atributos, um que inicialize apenas <em>titulo</em> e <em>autor</em>, e outro que inicialize apenas o <em>titulo</em>.</li>
-<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
-<li>Permita que o usuário crie instâncias de livros utilizando diferentes construtores e exiba os detalhes do livro.</li>
-Para resolver este problema, você deve criar
-uma CLASSE conforme projeto abaixo:
-<body>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <tr>
-            <th colspan="2">Livro</th>
-        </tr>
-        <tr class="attributes">
-            <td>- Titulo : string</td>
-        </tr>
-        <tr class="attributes">
-            <td>- Autor : string</td>
-        </tr>
-        <tr class="attributes">
-            <td>- Preco : double</td>
-        </tr>
-        <tr class="methods">
-            <td>+ Livro(titulo : string, autor : string, preco : double)</td>
-        </tr>
-        <tr class="methods">
-            <td>+ Livro(titulo : string, autor : string)</td>
-        </tr>
-        <tr class="methods">
-            <td>+ Livro(titulo : string)</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetTitulo() : string</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetAutor() : string</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetPreco() : double</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetTitulo(titulo : string) : void</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetAutor(autor : string) : void</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetPreco(preco : double) : void</td>
-        </tr>
-    </table>
-</body>
-<p><strong>Exemplo:</strong></p>
-<pre>
-Livro 1:
-Titulo: <span class="highlight">O Senhor dos Anéis</span>
-Autor: <span class="highlight">J.R.R. Tolkien</span>
-Preco: <span class="highlight">50.00</span>
+<strong> 7. </strong>Você foi contratado para desenvolver um sistema de gerenciamento de <strong>eventos</strong> que permite registrar, editar e calcular o valor total a ser cobrado por um evento de acordo com diferentes pacotes oferecidos pela empresa.
 
-Livro 2:
-Titulo: <span class="highlight">1984</span>
-Autor: <span class="highlight">George Orwell</span>
-Preco: <span class="highlight">40.00</span>
+<h2>Requisitos:</h2>
 
-Livro 3:
-Titulo: <span class="highlight">Dom Quixote</span>
-Autor: <span class="highlight">Desconhecido</span> (não informado)
-Preco: <span class="highlight">0.00</span> (não informado)
+<h3>1. Classe <code>Evento</code>:</h3>
+    <p>A classe deve possuir os seguintes <strong>atributos privados</strong>:</p>
+    <ul>
+        <li><code>nome</code> (String): nome do evento.</li>
+        <li><code>data</code> (String): data do evento.</li>
+        <li><code>local</code> (String): local onde o evento ocorrerá.</li>
+        <li><code>pacote</code> (String): tipo de pacote escolhido (por exemplo: "Básico", "Premium", "Deluxe").</li>
+        <li><code>valorBase</code> (double): valor base do evento.</li>
+    </ul>
 
-Dados dos livros:
-Livro 1: Titulo: O Senhor dos Anéis, Autor: J.R.R. Tolkien, Preco: 50.00
-Livro 2: Titulo: 1984, Autor: George Orwell, Preco: 40.00
-Livro 3: Titulo: Dom Quixote, Autor: Desconhecido, Preco: 0.00
-</pre>
+<p>A classe deve implementar os seguintes <strong>construtores</strong>:</p>
+    <ul>
+        <li><strong>Construtor 1</strong>: Inicializa apenas o nome do evento e define um pacote padrão "Básico".</li>
+        <li><strong>Construtor 2</strong>: Inicializa o nome, data e local do evento. Define o pacote como "Premium".</li>
+        <li><strong>Construtor 3</strong>: Inicializa todos os atributos, permitindo escolher o tipo de pacote e o valor base.</li>
+    </ul>
+
+<h3>2. Sobrecarga de métodos:</h3>
+    <p>Crie um método chamado <code>calcularValorTotal</code> que será sobrecarregado para calcular o valor total do evento com base em diferentes critérios:</p>
+    <ul>
+        <li><strong>Versão 1:</strong> Sem parâmetros. Calcula o valor total aplicando uma taxa fixa de 10% sobre o valor base.</li>
+        <li><strong>Versão 2:</strong> Recebe um parâmetro <code>desconto</code> (double) e calcula o valor total aplicando o desconto percentual e, em seguida, a taxa de 10% sobre o valor base.</li>
+        <li><strong>Versão 3:</strong> Recebe dois parâmetros, <code>desconto</code> (double) e <code>taxaExtra</code> (double), e calcula o valor total aplicando o desconto e depois a taxa extra.</li>
+    </ul>
+
+<h3>3. Encapsulamento:</h3>
+    <p>Implemente métodos <code>get</code> e <code>set</code> para todos os atributos da classe, garantindo que o valor do atributo <code>valorBase</code> seja sempre positivo (não pode ser negativo). Se o valor informado for negativo, deve lançar uma exceção.</p>
+
+ <h3>4. Teste:</h3>
+    <p>Implemente um método <code>main</code> em uma classe de teste para:</p>
+    <ul>
+        <li>Criar três objetos da classe <code>Evento</code> usando os diferentes construtores.</li>
+        <li>Utilizar a sobrecarga do método <code>calcularValorTotal</code> para calcular os valores totais dos eventos.</li>
+        <li>Exibir os detalhes dos eventos e seus respectivos valores totais.</li>
+    </ul>
+
+<h3>Exemplo de Saída Esperada:</h3>
+    <pre>
+Evento: Casamento
+Data: 12/12/2024
+Local: Praia
+Pacote: Deluxe
+Valor Total (com desconto de 5% e taxa extra de 15%): R$ 5.225,00
+
+Evento: Aniversário
+Data: 25/10/2024
+Local: Salão de Festas
+Pacote: Básico
+Valor Total (sem desconto): R$ 2.200,00
+
+Evento: Conferência
+Data: 01/05/2025
+Local: Centro de Convenções
+Pacote: Premium
+Valor Total (com taxa extra de 20%): R$ 4.800,00
+    </pre>
 </p>
 
 
