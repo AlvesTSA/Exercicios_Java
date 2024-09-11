@@ -2938,19 +2938,17 @@ Funcionario 2 - Novo Salario: <span class="highlight">7350.00</span> (5% de aume
         <li><code>valorBase</code> (double): valor base do evento.</li>
     </ul>
 
-<p>A classe deve implementar os seguintes <strong>construtores</strong>:</p>
+<p>A classe deve implementar o seguinte <strong>construtor</strong>:</p>
     <ul>
-        <li><strong>Construtor 1</strong>: Inicializa apenas o nome do evento e define um pacote padrão "Básico".</li>
-        <li><strong>Construtor 2</strong>: Inicializa o nome, data e local do evento. Define o pacote como "Premium".</li>
-        <li><strong>Construtor 3</strong>: Inicializa todos os atributos, permitindo escolher o tipo de pacote e o valor base.</li>
+        <li><strong>Construtor</strong>: Inicializa todos os atributos.</li>
     </ul>
 
 <h3>2. Sobrecarga de métodos:</h3>
     <p>Crie um método chamado <code>calcularValorTotal</code> que será sobrecarregado para calcular o valor total do evento com base em diferentes critérios:</p>
     <ul>
         <li><strong>Versão 1:</strong> Sem parâmetros. Calcula o valor total aplicando uma taxa fixa de 10% sobre o valor base.</li>
-        <li><strong>Versão 2:</strong> Recebe um parâmetro <code>desconto</code> (double) e calcula o valor total aplicando o desconto percentual e, em seguida, a taxa de 10% sobre o valor base.</li>
-        <li><strong>Versão 3:</strong> Recebe dois parâmetros, <code>desconto</code> (double) e <code>taxaExtra</code> (double), e calcula o valor total aplicando o desconto e depois a taxa extra.</li>
+        <li><strong>Versão 2:</strong> Recebe um parâmetro <code>valorBuffer</code> (double) e calcula o valor total aplicando o valorBuffer e, em seguida, a taxa de 10% sobre o valor base.</li>
+        <li><strong>Versão 3:</strong> Recebe dois parâmetros, <code>valorBuffer</code> (double) e <code>valorDJ</code> (double), e calcula o valor total aplicando o valorBuffer, o valorDJ e a taxa de 10% sobre o valor base.</li>
     </ul>
 
 <h3>3. Encapsulamento:</h3>
@@ -2959,8 +2957,8 @@ Funcionario 2 - Novo Salario: <span class="highlight">7350.00</span> (5% de aume
  <h3>4. Teste:</h3>
     <p>Implemente um método <code>main</code> em uma classe de teste para:</p>
     <ul>
-        <li>Criar três objetos da classe <code>Evento</code> usando os diferentes construtores.</li>
-        <li>Utilizar a sobrecarga do método <code>calcularValorTotal</code> para calcular os valores totais dos eventos.</li>
+        <li>Criar três objetos da classe <code>Evento</code> usando os diferentes pacotes.</li>
+        <li>Utilizar a sobrecarga do método <code>calcularValorTotal</code> para calcular os valores totais dos eventos de acordo com os tipos de pacotes.</li>
         <li>Exibir os detalhes dos eventos e seus respectivos valores totais.</li>
     </ul>
 
@@ -2970,19 +2968,19 @@ Evento: Casamento
 Data: 12/12/2024
 Local: Praia
 Pacote: Deluxe
-Valor Total (com desconto de 5% e taxa extra de 15%): R$ 5.225,00
+Valor Total (com buffer, DJ e taxa de 10% sobre valor base): R$ 5.200,00
 
 Evento: Aniversário
 Data: 25/10/2024
 Local: Salão de Festas
 Pacote: Básico
-Valor Total (sem desconto): R$ 2.200,00
+Valor Total (com 10% sobre valor base): R$ 2.200,00
 
 Evento: Conferência
 Data: 01/05/2025
 Local: Centro de Convenções
 Pacote: Premium
-Valor Total (com taxa extra de 20%): R$ 4.800,00
+Valor Total (com com buffer e 10% sobre valor base): R$ 4.200,00
     </pre>
 </p>
 
