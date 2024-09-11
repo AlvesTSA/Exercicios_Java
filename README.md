@@ -2986,89 +2986,83 @@ Valor Total (com com buffer e 10% sobre valor base): R$ 4.200,00
 
 
 <p align="justify">
-<strong> 8. </strong> Crie uma classe <strong>Veiculo</strong> com os atributos <em>marca</em>, <em>modelo</em>, <em>ano</em> e <em>preco</em>. Em seguida:
- <li>Implemente construtores sobrecarregados que inicializem diferentes combinações de atributos. Garanta que o preço seja sempre um valor positivo.</li>
-<li>Encapsule todos os atributos, garantindo que eles sejam acessados apenas através de métodos getters e setters.</li>
-<li>Permita que o usuário crie instâncias de veículos utilizando diferentes construtores e exiba os detalhes do veículo.</li>
-Para resolver este problema, você deve criar
-uma CLASSE conforme projeto abaixo:
-<body>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <tr>
-            <th colspan="2">Veiculo</th>
-        </tr>
-        <tr class="attributes">
-            <td>- Marca : string</td>
-        </tr>
-        <tr class="attributes">
-            <td>- Modelo : string</td>
-        </tr>
-        <tr class="attributes">
-            <td>- Ano : int</td>
-        </tr>
-        <tr class="attributes">
-            <td>- Preco : double</td>
-        </tr>
-        <tr class="methods">
-            <td>+ Veiculo(marca : string, modelo : string, ano : int, preco : double)</td>
-        </tr>
-        <tr class="methods">
-            <td>+ Veiculo(marca : string, modelo : string, ano : int)</td>
-        </tr>
-        <tr class="methods">
-            <td>+ Veiculo(marca : string, modelo : string)</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetMarca() : string</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetModelo() : string</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetAno() : int</td>
-        </tr>
-        <tr class="methods">
-            <td>+ GetPreco() : double</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetMarca(marca : string) : void</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetModelo(modelo : string) : void</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetAno(ano : int) : void</td>
-        </tr>
-        <tr class="methods">
-            <td>+ SetPreco(preco : double) : void</td>
-        </tr>
-    </table>
-</body>
-<p><strong>Exemplo:</strong></p>
-<pre>
-Veiculo 1:
-Marca: <span class="highlight">Ford</span>
-Modelo: <span class="highlight">Fusion</span>
-Ano: <span class="highlight">2020</span>
-Preco: <span class="highlight">120000.00</span>
+<strong> 8. </strong>Uma empresa de aluguel de veículos deseja criar um sistema de gestão para controlar sua frota de veículos.Cada veículo tem atributos como a placa, modelo, ano de fabricação, e quilometragem. Além disso, alguns veículos têm características especiais, como se são elétricos ou movidos a combustível. A empresa também precisa de uma forma de calcular o tempo que o veículo está disponível para locação e se está em manutenção.
+    
+<p>Você será responsável por criar uma classe <code>Veiculo</code> que encapsula essas informações, com a implementação de diferentes construtores para a inicialização dos objetos de formas variadas, além de métodos sobrecarregados para atualizar o status e calcular o tempo de disponibilidade do veículo.</p>
 
-Veiculo 2:
-Marca: <span class="highlight">Chevrolet</span>
-Modelo: <span class="highlight">Onix</span>
-Ano: <span class="highlight">2022</span>
-Preco: <span class="highlight">75000.00</span>
+<h2>Requisitos</h2>
+    <ul>
+        <li>
+            <strong>Classe Veiculo:</strong>
+            <ul>
+                <li>Atributos privados:
+                    <ul>
+                        <li><code>placa</code>: String</li>
+                        <li><code>modelo</code>: String</li>
+                        <li><code>anoFabricacao</code>: int</li>
+                        <li><code>quilometragem</code>: float</li>
+                        <li><code>status</code>: String (Pode ser "disponível", "alugado", ou "em manutenção")</li>
+                        <li><code>tipoCombustivel</code>: String (pode ser "eletrico" ou "combustivel")</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
 
-Veiculo 3:
-Marca: <span class="highlight">Toyota</span>
-Modelo: <span class="highlight">Corolla</span>
-Ano: <span class="highlight">2024 (valor padrão)</span>
-Preco: <span class="highlight">130000.00</span>
+<li>
+            <strong>Construtores:</strong>
+            <ul>
+                <li>Crie um <strong>construtor padrão</strong> que inicialize os atributos com valores default.</li>
+                <li>Crie um <strong>construtor parametrizado</strong> que aceite todos os atributos como parâmetros.</li>
+                <li>Crie um <strong>construtor alternativo</strong> que permita a criação de um veículo passando apenas a placa, 
+                    o modelo e o ano de fabricação, assumindo que a quilometragem é 0 e o status é "disponível".</li>
+            </ul>
+</li>
 
-Dados dos veículos:
-Veiculo 1: Marca: Ford, Modelo: Fusion, Ano: 2020, Preco: 120000.00
-Veiculo 2: Marca: Chevrolet, Modelo: Onix, Ano: 2022, Preco: 75000.00
-Veiculo 3: Marca: Toyota, Modelo: Corolla, Ano: 2024, Preco: 130000.00
-</pre>
+ <li>
+            <strong>Métodos de Encapsulamento:</strong>
+            <ul>
+                <li>Crie <strong>getters e setters</strong> para todos os atributos. Os setters devem validar a entrada de dados, 
+                    por exemplo, a quilometragem não pode ser negativa e o status só pode assumir os valores especificados.</li>
+            </ul>
+</li>
+
+<li>
+            <strong>Sobrecarga de Métodos:</strong>
+            <ul>
+                <li>Implemente dois métodos sobrecarregados chamados <code>atualizarStatus</code>:
+                    <ul>
+                        <li>Um que atualiza o status do veículo (recebendo uma string como parâmetro).</li>
+                        <li>Outro que atualiza o status e a quilometragem ao mesmo tempo (recebendo uma string e um valor float).</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+<li>
+            <strong>Método calcularDisponibilidade:</strong>
+            <ul>
+                <li>Crie um método <code>calcularDisponibilidade</code> que calcula o número de dias que o veículo está disponível.</li>
+                <li>O cálculo pode ser feito de duas formas (use a sobrecarga de métodos):
+                    <ul>
+                        <li>Um método que recebe a data de aluguel e a data de retorno e retorna o número de dias em que o veículo esteve disponível.</li>
+                        <li>Outro método que apenas retorna o número de dias desde o último aluguel, considerando a data atual.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+<h2>Tarefas</h2>
+    <ol>
+        <li>Implemente a classe <code>Veiculo</code> com todos os requisitos acima.</li>
+        <li>Crie um programa principal que instancia diversos objetos da classe <code>Veiculo</code> usando diferentes construtores.</li>
+        <li>Atualize o status de um dos veículos para "alugado" e outro para "em manutenção" utilizando os métodos sobrecarregados.</li>
+        <li>Calcule e exiba o tempo de disponibilidade de dois veículos usando ambos os métodos sobrecarregados de <code>calcularDisponibilidade</code>.</li>
+    </ol>
+
+<h3>Desafio Extra:</h3>
+    <p>Implemente uma validação no método <code>calcularDisponibilidade</code> que verifica se a data de aluguel é válida (ou seja, se não é uma data futura).</p>
+
 </p>
 
 
